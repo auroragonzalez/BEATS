@@ -120,8 +120,8 @@ for(alpha in 5:10){
 ### choosing the same alfa that was the best for the case of the previous SVM in SAX
 
 load("resutls_models/rgSAXsvm_all.Rdata")
-accuraciesSAXsvm = unlist(rgSAXsvm_all)
-rgAlphasvm = which.max(accuraciesSAXsvm) + 2 # Alpha for best accuracy of SVM with SAX: 5
+accuraciesSAXsvm = as.numeric(as.character(lapply(rgSAXsvm_all, "[[",1)))
+rgAlphasvm = which.max(accuraciesSAXsvm)
 rgSAXalphasvm = f.toSAX(dfSC2, w, rgAlphasvm)
 
 ### Computing HURST coefficient

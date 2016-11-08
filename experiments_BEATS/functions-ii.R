@@ -373,8 +373,6 @@ f.Cantor_pairingRounded <- function(df){
   return(as.data.frame(df2))
 }
 
-library(rPython)
-python.load("hilbert.py")
 
 f.HilbertRounded <- function(df){
   df2 = matrix(NA, nrow=nrow(df), ncol = ncol(df))

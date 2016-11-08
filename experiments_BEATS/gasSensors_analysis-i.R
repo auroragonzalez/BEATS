@@ -123,8 +123,8 @@ for(alpha in 6:10){
 ### choosing the same alfa that was the best for the case of the previous SVM in SAX
 
 load("resutls_models/gsSAXsvm_all.Rdata")
-accuraciesSAXsvm = unlist(gsSAXsvm_all)
-gsAlphasvm = which.max(accuraciesSAXsvm) + 2 # Alpha for best accuracy of SVM with SAX: 5
+accuraciesSAXsvm = as.numeric(as.character(lapply(gsSAXsvm_all, "[[",1)))
+gsAlphasvm = which.max(accuraciesSAXsvm) 
 gsSAXalphasvm = f.toSAX(dfSC2, w, gsAlphasvm)
 
 ### Computing HURST coefficient
@@ -270,7 +270,7 @@ hurst.df <- data.frame(gsRawHurst, gsBEATSHurst, gsEigenHurst,gsSAXHurst)
 hurst.df2 = abs(hurst.df- hurst.df[,1])[-1]
 colMeans(hurst.df2, na.rm=T) 
 #gsBEATSHurst gsEigenHurst   gsSAXHurst 
-#0.0434318    0.0507070    0.1272414 
+#0.07407246   0.04542384   0.24848493  
 hurst.df3 = data.frame(timeS = 1:nrow(hurst.df2), hurst.df2)
 hurst.df4 <- melt(hurst.df3 ,  id.vars = 'timeS')
 names(hurst.df4) = c("timeSeries", "substracted", "difference")
