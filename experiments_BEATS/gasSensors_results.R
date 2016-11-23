@@ -43,5 +43,5 @@ method= c("Hclust", "Kmeans", "Hclust", "Kmeans", "Hclust", "Kmeans", "Hclust", 
 silhouette = c(gsBEATShclust, gsBEATSkmeans, gsSAX1hclust, gsSAX2kmeans,gsSAX2hclust,
                gsSAX1kmeans, gsEigenhclust, gsEigenkmeans, gsRawhclust, gsRawkmeans)
 
-df = data.frame(segmentationCLA, model, accuracy,segmentationCLU, method, silhouette)
+dfGS = data.frame(segmentationCLA, model, accuracy,segmentationCLU, method, silhouette)
 
