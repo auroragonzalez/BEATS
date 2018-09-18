@@ -1,0 +1,78 @@
+>
+>        --========  Review Reports  ========--
+>
+> The review report from reviewer #1:
+>
+>
+> The paper presents a machine learning approach for creating data-driven models for energy consumption prediction in a smart building.
+>
+> - The idea is definitely of interest and many groups are working on this domain. The authors gave a nice overview about the need of different abstractions of models.
+>
+> - Although authors have used a real world test case, the paper could add more discussion. What is the Y axes of the left part of Figure 3.
+>
+> - The paper needs to be edited and English needs to be checked before adding it to the proceedings.
+>
+>
+>
+>
+> ========================================================
+> The review report from reviewer #2:
+>
+> *8: Detailed comments for the authors
+> The paper "Data driven modelling for energy consumption prediction on smart buildings"
+> by Gonzalez-Vidal et al. presents a study comparing models to predict a building's
+> energy consumption based on outdoor air temperature. Several standard supervised
+> machine learning models are tested against a physics-based model that uses a thermal
+> resistor-capacitor network (RCN).
+>
+> The paper's sections are well structured to guide the reader. Tables and figures
+> illustrate the work. To provide a first glimpse on the main subject, the writing
+> would benefit from a compressed abstract that carves out the essence. A major revision
+> of the English grammar and phrases is necessary to allow a fluent reading experience,
+> as well as to avoid misconception of the contents presented.
+>
+> Scientifically the paper provides a style accessible to a general audience. Some
+> phrases are too vague or disputable, thus need to be clearified. E.g.
+> [...]
+> selftuning process (which is different from mathematical models such as regression models)
+> [...]
+> or
+> [...]
+> We have avoided the use of change-point models adding novelty to our approach.
+> [...]
+> Regarding the former one, supervised learning can be actually viewed as a regression
+> problem, cf. standard literature such as Chapt. 3 of 'Pattern Recognition and Machine Learning'
+> (Bishop, 2009).
+> Wrt. the latter, time series that are modeled without change-points could be viewed
+> as the trivial case of a change-point model with zero change-points in case the paper
+> referres to the topic reviewed in e.g. "A Survey of Methods for Time Series Change Point Detection"
+> (Aminikhanghahi & Cook, 2017).
+>
+> The remaining differentiator of the paper
+> [...]
+> our method differes from existing [...] we are relating the input as a time series
+> with single output.
+> [...]
+> is standard supervised machine learning. Though, the comparison to the RCN is useful.
+> It might be a bit too simplistic? In particular, according to the text, Eq. 1
+> reduces to y(t) = A*x(t) + B*u(t) ? A quantitative discussion on the validity of
+> comparing this model to the machine learning approach would be beneficial.
+>
+> Regarding the workshop's focus on IoT and big data analytics the paper's content
+> might be too loosely connected. One year of hourly temperature data comprises on
+> the order of 10k measurements, i.e. on the order of megabytes of data. Interconnection
+> of measurement devices through the internet is not discussed (yet).
+>
+> To meet common sense publication standards the following formal requirements must
+> be met:
+> - cut down abstract wrt. to number of words to about 1/3 of what it has right now
+> - explain x'(t) in Eq. 1
+> - clarify if the term "Octave" referres to the software "GNU Octave"?
+>
+> ========================================================
+> The review report from reviewer #3:
+>
+> The abstract should be shortened.
+> The paper is well balanced between theory and practical application and demonstrates the benefit of working in the overall of big data and IoT.
+> ========================================================
+

@@ -1,0 +1,12 @@
+Hola a ambos. 
+
+He estado trabajando en la creación del dataset que me pidió Alfonso para utilizarlo en Energy+. Lo adjunto:energyP_shaped_data.csv
+
+Asimismo, a partir de la revisión del método de Alfonso se me ocurrió que ya que había una relación lineal entre el consumo y la temperatura externa podría utilizar algoritmos de machine learning que tuvieran como entrada: temperatura externa cada hora y como salida: consumo energético. Funciona muy bien. Además, así podemos hacerlo más general puesto que el modelo de Alfonso era bueno para Marzo-Mayo pero no creo que se pudiera extrapolar. Adjunto las gráficas para varios ejemplos: aplicando Random Forest ó SVM, pediciendo todo el año 2016 ó solo desde Marzo de 2016 y haciendo predicciones diarias y semanales. He llegado a obtener un 2.85 % de MAPE en la predicción semanal (ese es el mejor resultado hasta ahora). He encontrado un artículo reciente con el que podríamos comparar los resultados: energyAndBuildings_tocompare.pdf.
+Además, me gustaría que el artículo que vamos a escribir sea la comparación de "modelos caja blanca": predicciones de Energy+ o el modelo de Alfonso, con modelos caja negra: estas que os paso. 
+
+Echad un vistazo si podéis a la estructura del paper esqueleto.doc y si me dáis el visto bueno y Alfonso puede generar resultados similares con Energy+ para comparar lo enfocamos de esta forma.
+
+Muchas gracias y un saludo!
+
+

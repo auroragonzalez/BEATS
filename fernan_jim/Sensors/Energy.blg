@@ -1,0 +1,72 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Energy.aux
+The style file: elsarticle-num.bst
+I couldn't open database file references.bib
+---line 39 of file Energy.aux
+ : \bibdata{references
+ :                    }
+I'm skipping whatever remains of this command
+I found no database files---while reading file Energy.aux
+Warning--I didn't find a database entry for "Liu:1998:FSK:551944"
+Warning--I didn't find a database entry for "kohavi1997wrappers"
+Warning--I didn't find a database entry for "Japkowicz:2011:ELA:1964882"
+Warning--I didn't find a database entry for "Kar10"
+Warning--I didn't find a database entry for "Hal98"
+Warning--I didn't find a database entry for "Ami05"
+Warning--I didn't find a database entry for "Sal94"
+Warning--I didn't find a database entry for "Weka"
+Warning--I didn't find a database entry for "russell2003modern"
+Warning--I didn't find a database entry for "jimenez2016multi"
+Warning--I didn't find a database entry for "moraglio2008geometric"
+Warning--I didn't find a database entry for "yujor"
+Warning--I didn't find a database entry for "liu1996probabilistic"
+Warning--I didn't find a database entry for "Kira:1992:PAF:141975.142034"
+Warning--I didn't find a database entry for "WICS:WICS101"
+Warning--I didn't find a database entry for "Schaefer2016b"
+Warning--I didn't find a database entry for "breiman2001random"
+Warning--I didn't find a database entry for "Aha:1991:ILA:104713.104717"
+Warning--I didn't find a database entry for "yan2009linear"
+Warning--I didn't find a database entry for "Willmott200579"
+You've used 0 entries,
+            2937 wiz_defined-function locations,
+            700 strings with 5526 characters,
+and the built_in function-call counts, 44 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 2
+:= -- 23
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
+int.to.chr$ -- 0
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 8
+num.names$ -- 0
+pop$ -- 0
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1
+stack$ -- 0
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 0
+width$ -- 0
+write$ -- 7
+(There were 2 error messages)

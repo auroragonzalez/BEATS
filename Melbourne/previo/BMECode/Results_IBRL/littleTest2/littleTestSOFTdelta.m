@@ -1,0 +1,209 @@
+rng('default')
+load('variable2');
+motes_for_BME=[1:4 6:14 16:17 19:54];
+hard = [1 7 13 16 20 26 40 47 50 54];
+soft = motes_for_BME(~ismember(motes_for_BME, hard));
+
+
+deltaD = 0.1:0.01:0.9;
+%controlled missing data: at observation = mote id (so mote 1 has a
+%missing value in 1st position, mote 2 has a missing value in 2nd
+%position... and so on)
+RMSE = zeros(length(deltaD),1);
+
+
+for ix = 1:length(deltaD)
+    
+    ix
+   delta = deltaD(ix);
+rng('default');
+%%%SOFT
+for m = motes_for_BME %%%SOFT
+eval(['mote_' num2str(m) '_temprature_actual_prev = mote_' num2str(m) '_temprature_actual;' ]);%%%SOFT
+end%%%SOFT
+
+for m = soft %%%SOFT
+rng(m); %%%SOFT
+eval(['mote_' num2str(m) '_temprature_actual = mote_' num2str(m) '_temprature_actual -delta + (delta+delta)*rand(1200,1);' ]); %%%SOFT
+end %%%SOFT
+
+
+
+rand('state',0); 
+randn('state',0); 
+
+
+
+N=54; %observations
+matrixForNA2=zeros(54,51);
+
+matrixForNA2(1,3) = 1
+
+k =1 %we do it with 1 cluster (all together)
+CLU= dlmread(['BMECode/kmeansResR/k' num2str(k) '/groupsk' num2str(k) '.txt']);
+index=1
+submotes_for_BME2=CLU(find(CLU(:,2)==index),1).';
+submatrixForNA = matrixForNA2(submotes_for_BME2,:);
+elements2 = find(submatrixForNA');
+
+mote = repelem(1:length(submotes_for_BME2),54);   %change
+obs = repmat(1:54,1,length(submotes_for_BME2));
+
+temp = [];
+tempN = [];
+tempT= [];
+
+for i= submotes_for_BME2
+temp = [temp; eval(['mote_' num2str(i) '_temprature_actual(1:54)'])];
+tempT = [tempT; eval(['mote_' num2str(i) '_temprature_actual_prev(1:54)'])];   %%%SOFT
+a = eval(['mote_' num2str(i) '_temprature_actual(1:54)']);
+x = [min(a,[],1);max(a,[],1)];
+b = bsxfun(@minus,a,x(1,:));
+b = bsxfun(@rdivide,b,diff(x,1,1));     
+tempN = [tempN; b];
+end
+
+all_data = zeros(length(mote),3);
+
+all_data(:,1) = mote;
+all_data(:,2) = obs;
+all_data(:,3) = temp;
+
+%all_data(54*2:(54*2 +5),:)  --> 21.3259
+
+
+all_index = 1:length(mote);
+test_index = elements2;
+ismem = ismember(all_index,test_index);
+train_index = all_index(~ismem);
+
+train = all_data(train_index,:);
+%test = all_data(test_index,:);
+
+trainN = train;
+for sss = 1:51
+a = train(find(train(:,1)==sss ),3 );
+x = [min(a,[],1);max(a,[],1)];
+b = bsxfun(@minus,a,x(1,:));
+b = bsxfun(@rdivide,b,diff(x,1,1));     
+trainN(find(train(:,1)==sss ),3 )=b;
+end
+
+
+
+all_data2 = zeros(length(mote),3);
+
+all_data2(:,1) = mote;
+all_data2(:,2) = obs;
+all_data2(:,3) = tempN;
+test = all_data2(test_index,:);
+
+train = trainN;
+
+%%%%%%PMF
+
+  restart=0;
+  alpha=0.001; % Learning rate 
+  lambda  = 0.01; % Regularization parameter 
+  momentum=1; %aurorax: better results with 0.8 (change)
+
+  epoch=1; 
+  maxepoch=1000; % change to 1000
+
+  mean_rating = mean(train(:,3)); 
+  
+  
+  pairs_tr = length(train); % training data 
+  pairs_pr = length(test); % validation data 
+
+  numbatches= 1; % Number of batches  
+  num_m = 54;  % Number of observations 
+  num_p = 51;  % Number of sensors 
+  num_feat = 10; % Rank 10 decomposition 
+
+  U     = 0.1*randn(num_m, num_feat); % Obs feature vectors
+  V     = 0.1*randn(num_p, num_feat); % Sens feature vecators
+  U_inc = zeros(num_m, num_feat);
+  V_inc = zeros(num_p, num_feat);
+  
+    aa_p   = double(train(:,1));
+    aa_m   = double(train(:,2));
+    rating = double(train(:,3));
+
+    rating = rating-mean_rating; % Default prediction is the mean rating. 
+    
+for epoch = epoch:maxepoch
+
+   % fprintf(1,'epoch %d batch %d \r',epoch,batch);
+
+
+
+    %%%%%%%%%%%%%% Compute Predictions %%%%%%%%%%%%%%%%%
+    pred_out = sum(U(aa_m,:).*V(aa_p,:),2);  %,2 addition of the rows of the matrix
+     f = sum( (pred_out - rating).^2 + ...
+        0.5*lambda*( sum( (U(aa_m,:).^2 + V(aa_p,:).^2),2)));
+
+    %%%%%%%%%%%%%% Compute Gradients %%%%%%%%%%%%%%%%%%%
+    IO = repmat(2*(pred_out - rating),1,num_feat);
+    Ix_m=IO.*V(aa_p,:) + lambda*U(aa_m,:);
+    Ix_p=IO.*U(aa_m,:) + lambda*V(aa_p,:);
+
+    dU = zeros(num_m,num_feat);
+    dV = zeros(num_p,num_feat);
+
+    for ii=1:N
+      dU(aa_m(ii),:) =  dU(aa_m(ii),:) +  Ix_m(ii,:);
+      dV(aa_p(ii),:) =  dV(aa_p(ii),:) +  Ix_p(ii,:);
+    end
+
+    %%%% Update  features %%%%%%%%%%%
+
+    U_inc = momentum*U_inc + alpha*dU;
+    U =  U - U_inc;
+
+    V_inc = momentum*V_inc + alpha*dV;
+    V =  V - V_inc;
+
+
+  %%%%%%%%%%%%%% Compute Predictions after Paramete Updates %%%%%%%%%%%%%%%%%
+  pred_out = sum(U(aa_m,:).*V(aa_p,:),2);
+  f_s = sum( (pred_out - rating).^2 + ...
+        0.5*lambda*( sum( (U(aa_m,:).^2 + V(aa_p,:).^2),2)));
+  err_train(epoch) = sqrt(f_s/N);
+
+
+
+end
+
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %%% Compute predictions on the validation set %%%%%%%%%%%%%%%%%%%%%% 
+  aa_p = double(test(:,1));
+  aa_m = double(test(:,2));
+  rating = double(test(:,3));
+
+  pred_out = sum(U(aa_m,:).*V(aa_p,:),2) + mean_rating;
+
+realTest = tempT(test_index);  %%%SOFT
+maxTrain = max(temp(train_index)); 
+minTrain = min(temp(train_index)); 
+
+predTest = pred_out*(maxTrain-minTrain) + minTrain;
+
+RMSEnow = sqrt(mean((realTest - predTest).^2));
+RMSE(ix) = RMSEnow;
+    
+
+load('variable2');
+
+%%%%%%PMF END%%%%%%%
+    
+end
+
+csvwrite('deltaChanges1.csv', [deltaD' RMSE])
+
+
+
+
+
+

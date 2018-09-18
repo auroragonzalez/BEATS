@@ -1,0 +1,16 @@
+\select@language {english}
+\par \penalty \@M \unhbox \voidb@x \hbox {}\hfill {\bfseries Page}\par \penalty \@M 
+\contentsline {chapter}{List of Tables}{vii}{section*.3}
+\contentsline {chapter}{List of Figures}{ix}{section*.4}
+\select@language {spanish}
+\contentsline {chapter}{\chapternumberline {1}Resumen}{1}{chapter.1}
+\select@language {english}
+\contentsline {chapter}{\chapternumberline {2}Abstract}{3}{chapter.2}
+\contentsline {chapter}{\chapternumberline {3}Introduction}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Section}{5}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Subsection}{5}{subsection.3.1.1}
+\contentsline {chapter}{\chapternumberline {4}Publications composing the PhD Thesis}{9}{chapter.4}
+\contentsline {section}{\numberline {4.1}BEATS: Blocks of Eigenvalues Algorithm for Time Series Segmentation}{9}{section.4.1}
+\contentsline {section}{\numberline {4.2}Applicability of Big Data Techniques to Smart Cities Deployments}{24}{section.4.2}
+\contentsline {section}{\numberline {4.3}An open IoT platform for the management and analysis of energy data}{35}{section.4.3}
+\contentsline {appendix}{\chapternumberline {A}Appendix A}{51}{appendix.A}

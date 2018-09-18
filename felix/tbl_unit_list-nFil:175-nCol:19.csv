@@ -1,0 +1,7 @@
+"idx";"name";"addend";"convert_factor";"multiplicator";"integration_id";"integration_rule";"internal_name";"order";"rule";"unit_group";"user_input";"user_convert_input";"unit_type";"used";"convert_on_integration";"origin";"used_in_viewer";"group"
+-1;"Tm/s";0;1;"1E-9";"di_terra_metres";0;"vl_terra_metres_per_second";3;0;2;FALSE;NA;0;FALSE;"N/A";NA;NA;3
+1;"Mm/s";0;1;"1E-6";"di_mega_metres";0;"vl_mega_metres_per_second";2;0;2;FALSE;NA;0;FALSE;"N/A";NA;NA;3
+2;"km/s";0;1;"0.001";"di_kilo_metres";0;"vl_kilo_metres_per_second";1;0;2;FALSE;NA;0;TRUE;"N/A";NA;NA;3
+3;"m/s";0;1;"1";"di_metres";0;"vl_metres_per_second";0;0;2;FALSE;FALSE;0;TRUE;"N/A";0;TRUE;0
+4;"mm/s";0;1;"1000";"di_milli_metres";0;"vl_milli_metres_per_second";-1;0;2;FALSE;FALSE;0;TRUE;"N/A";0;TRUE;0
+5;"µm/s";0;1;"1000000";"di_micro_metres";0;"vl_micro_metres_per_second";-2;0;2;FALSE;FALSE;0;TRUE;"N/A";0;TRUE;0

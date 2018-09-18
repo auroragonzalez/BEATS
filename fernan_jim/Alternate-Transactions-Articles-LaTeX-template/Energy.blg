@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Energy.aux
+The style file: elsarticle-num.bst
+Database file #1: references.bib
+Warning--empty pages in Gonzalez2017
+Warning--empty pages in Vantuch2018
+You've used 23 entries,
+            2937 wiz_defined-function locations,
+            842 strings with 9841 characters,
+and the built_in function-call counts, 7256 in all, are:
+= -- 699
+> -- 201
+< -- 8
++ -- 81
+- -- 58
+* -- 487
+:= -- 953
+add.period$ -- 27
+call.type$ -- 23
+change.case$ -- 26
+chr.to.int$ -- 9
+cite$ -- 25
+duplicate$ -- 256
+empty$ -- 863
+format.name$ -- 76
+if$ -- 1931
+int.to.chr$ -- 0
+int.to.str$ -- 23
+missing$ -- 26
+newline$ -- 89
+num.names$ -- 25
+pop$ -- 183
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 483
+stack$ -- 0
+substring$ -- 335
+swap$ -- 69
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 54
+width$ -- 25
+write$ -- 213
+(There were 2 warnings)

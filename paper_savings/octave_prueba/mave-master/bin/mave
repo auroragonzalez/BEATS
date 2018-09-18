@@ -1,0 +1,120 @@
+#!/usr/bin/env python
+"""
+Building Energy Prediction
+
+This software reads an input file (a required argument) containing 
+building energy data in a format similar to example file. 
+It then trains a model and estimates the error associated
+with predictions using the model.
+
+@author Paul Raftery <p.raftery@berkeley.edu>
+@author Tyler Hoyt <thoyt@berkeley.edu>
+"""
+
+import pdb
+import io
+import os
+import sys
+import mave.core
+import argparse
+import ConfigParser
+import logging
+import pkg_resources
+import pprint
+from datetime import datetime
+import pdb
+
+logging.basicConfig(
+    filename='mave.log',
+    level=logging.INFO,
+    format= '%(levelname)-8s %(message)s')
+log = logging.getLogger("mave")
+
+def main(input_file_path=None,
+         config_file=None,
+         changepoint=None,
+         **kwargs):
+    log.info(("Assessing input file %s using mave version %s"
+              %(args.input_file_path,mave.__version__)))
+    kws ={}
+    config = ConfigParser.ConfigParser(allow_no_value=True)
+    if config_file: 
+        try:
+            if not os.path.isfile(config_file): raise Exception
+        except Exception as e: 
+            log.error('Configuration file (%s) not found'%config_file)
+            sys.exit()
+        config.read(config_file)
+    else:
+        # no config file passed, use defaults:
+        log.info('No config file entered - Using default settings') 
+        resource_path = os.path.join('config', 'default.cfg')
+        default = pkg_resources.resource_string('mave', resource_path)
+        config.readfp(io.BytesIO(default))
+    for name in config.options('Booleans'):
+        kws[name] = config.getboolean('Booleans', name)
+    for name in config.options('Integers'):
+        kws[name] = config.getint('Integers', name)
+    for name in config.options('Floats'):
+        kws[name] = config.getfloat('Floats', name)
+    for name in config.options('Strings'):
+        kws[name] = config.get('Strings', name)
+    for name in config.options('Lists'):
+        kws[name] = config.get('Lists', name).replace(' ' ,'').split(',')
+    kws['changepoints'] = config.items('Changepoints')
+    if not kws['changepoints']: kws['changepoints'] = None 
+    # remove unused command line args (value is None)
+    kwargs = {key: value for (key, value) in kwargs.iteritems() if value}
+    # override config file values using command line args
+    kws.update(kwargs)
+    # if user enters a single changepoint at command line, use it 
+    if changepoint: 
+        kws['changepoints'] = [(changepoint,
+                                mave.core.Preprocessor.POST_DATA_TAG)]
+    log.info('Configuration used for this analysis:\n%s'%\
+                pprint.pformat(kws))
+    mnv = mave.core.mave(os.path.abspath(input_file_path), **kws)
+    log.info("Outputting analysis results:\n %s"%(mnv))
+
+if __name__=='__main__': 
+    # parse args
+    prs = argparse.ArgumentParser()
+    # required argument
+    prs.add_argument("input_file_path", 
+                     help="filepath to input data file")
+    # identification of the post-retrofit period
+    prs.add_argument("-cp", "--changepoint", 
+                     help="datetime at which postretrofit period begins")
+    prs.add_argument("-ts", "--test_size", type=float,
+                     help="fraction of the file used as postretrofit period")
+    prs.add_argument("-ad", "--address", type=str,
+                     help="address of the building")
+    # output controls
+    prs.add_argument("-v", "--verbose", action="store_true",
+                     help="increase output verbosity")
+    prs.add_argument("-p", "--print_console", action="store_false",
+                     help="- do not log to console, only to file")
+    prs.add_argument("-s", "--save", action="store_true",
+                     help="save model and output detailed results")
+    prs.add_argument("-pl", "--plot", action="store_true",
+                     help="plot results to pdf-not yet implemented")
+    # high level controls on total computation time
+    prs.add_argument("-n", "--n_jobs", type=int,
+                     help="num parallel jobs (default uses max available")
+    prs.add_argument("-k", "--k", type=int, 
+                     help="num folds in k-fold cross-validation")
+    prs.add_argument("-si", "--search_iterations", type=int, 
+                     help="num search iterations in randomized grid search")
+    # option to provide more advanced control using a configuration file
+    prs.add_argument("-conf", "--config_file", type=str,
+                     help="use specified config file for advanced input")
+    args = prs.parse_args()  
+    if args.print_console:
+    # log to screen also
+        po = logging.StreamHandler()
+        po.setLevel(logging.INFO)
+        fmt = logging.Formatter('%(levelname)-8s %(message)s')
+        po.setFormatter(fmt)
+        log.addHandler(po)
+    log.info("Starting mave")
+    main(**args.__dict__)

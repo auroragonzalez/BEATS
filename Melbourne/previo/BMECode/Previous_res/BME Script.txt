@@ -1,0 +1,53 @@
+Q=1; %assumed process variance
+R=(0.01)^2; % assumed measurement variance
+motes_for_BME=[1:4 6:14 16:17 19:54];
+Hard_Sensors=[1,7,13,16,20,26,40,47,50,54];
+Soft_Sensors=setdiff(motes_for_BME,Hard_Sensors);
+
+
+%%Univariate BME
+% modelCsand={'exponentialC'};
+% paramsand={[0.82,12]};
+
+modelCsand={'nuggetC','exponentialC'};
+paramsand={-0.0795,[0.6656,22.3507]};
+
+
+nhmax=3;
+nsmax=3;
+total=nhmax+nsmax;
+dmax=100;
+order=0;
+
+
+% Ch=H_Sensors_Locations;
+Ch= mote_position(Hard_Sensors,:);
+Cs= mote_position(Soft_Sensors,:);
+
+
+
+i=1
+ temperatureHard=[mote_1_temprature_actual(i) mote_7_temprature_actual(i) mote_13_temprature_actual(i) mote_16_temprature_actual(i) ...
+        mote_20_temprature_actual(i) mote_26_temprature_actual(i) mote_40_temprature_actual(i) mote_47_temprature_actual(i) mote_50_temprature_actual(i) mote_54_temprature_actual(i)];
+   
+    tempratureSoft=[mote_2_temprature_corrected_BME(i) mote_3_temprature_corrected_BME(i) ...
+        mote_4_temprature_corrected_BME(i) mote_6_temprature_corrected_BME(i)  mote_8_temprature_corrected_BME(i) mote_9_temprature_corrected_BME(i) mote_10_temprature_corrected_BME(i)  ...
+        mote_11_temprature_corrected_BME(i)  mote_12_temprature_corrected_BME(i)  mote_14_temprature_corrected_BME(i) mote_17_temprature_corrected_BME(i)  ...
+        mote_19_temprature_corrected_BME(i) mote_21_temprature_corrected_BME(i)  mote_22_temprature_corrected_BME(i) mote_23_temprature_corrected_BME(i)  ...
+        mote_24_temprature_corrected_BME(i) mote_25_temprature_corrected_BME(i) mote_27_temprature_corrected_BME(i) mote_28_temprature_corrected_BME(i) mote_29_temprature_corrected_BME(i) mote_30_temprature_corrected_BME(i)  ...
+        mote_31_temprature_corrected_BME(i) mote_32_temprature_corrected_BME(i) mote_33_temprature_corrected_BME(i) mote_34_temprature_corrected_BME(i) mote_35_temprature_corrected_BME(i)  ...
+        mote_36_temprature_corrected_BME(i) mote_37_temprature_corrected_BME(i) mote_38_temprature_corrected_BME(i) mote_39_temprature_corrected_BME(i) mote_41_temprature_corrected_BME(i)  ...
+        mote_42_temprature_corrected_BME(i) mote_43_temprature_corrected_BME(i) mote_44_temprature_corrected_BME(i) mote_45_temprature_corrected_BME(i) mote_46_temprature_corrected_BME(i)   ...
+        mote_48_temprature_corrected_BME(i) mote_49_temprature_corrected_BME(i)  mote_51_temprature_corrected_BME(i) mote_52_temprature_corrected_BME(i)  ...
+        mote_53_temprature_corrected_BME(i)];
+
+     LowLimtemperature= tempratureSoft-1;
+     UpLimtemperature=  tempratureSoft+1;
+     
+
+
+
+predict_mote_1_temprature_BME = BMEintervalMode(ck,ch,cs,temperature,a_temperature,b_temperature,modelCsand,paramsand,nhmax,nsmax,dmax,order);
+
+
+

@@ -1,0 +1,7 @@
+"idx";"name";"type";"freq_free";"freq_min";"freq_max";"alarm_limit";"pre_alarm_limit";"comment";"ext_AD_channel";"unit_internal_name"
+1;"ISO 10816";0;FALSE;10;1000;0.0045;50;NA;0;"vl_metres_per_second"
+2;"Aeff";1;FALSE;2000;20000;0.5;50;NA;1;"ac_g"
+3;"Asel";6;TRUE;0;20000;0.5;50;NA;1;"ac_g"
+4;"Deff";4;FALSE;0;20000;0.5;50;NA;2;"ac_g"
+5;"Dsel";7;TRUE;0;20000;0.5;50;NA;2;"ac_g"
+6;"Temp";2;FALSE;0;0;40;70;NA;3;"te_degree_celsius"

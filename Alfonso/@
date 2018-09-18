@@ -1,0 +1,15 @@
+He creado 3 matrices que adjunto, una para cada uno de los atributos que dijimos.
+
+1. meanSettingPoint.csv: Media setting point diaria 
+2. timesOn.csv: Veces que está encendido al día 
+3. settingPointInteraction.csv: Cambios el el setting point al día (lo que dijimos que si ayer estaba en 26 y al día siguiente también en 26 entonces no cuenta como cambio)
+
+
+Después he aplicado una técnica de clustering multivariante: "Permutation Distribution Clustering". Si quieres leer sobre eso: https://www.jstatsoft.org/article/view/v067i05
+
+
+Este método es clustering jerárquico, por lo tanto no calcula centroides. Lo ideal para describir los clusters sería buscar frecuencias y estadísticos de los atributos dentro de cada cluster. Esto lo puedes hacer tú si quieres con las matrices que he sacado. Básicamente es que cojas el número de clustering que desees del fichero clusterIndex.csv y ya hagas lo que quieras.
+
+A modo de prueba, yo he cogido 2 clusters y los he representado como hacíamos con las Markov chains y he reseteado a cero las probabilidades que están por debajo de 0.05. 
+
+Haz por favor un chequeo de todo esto y me cuentas. 

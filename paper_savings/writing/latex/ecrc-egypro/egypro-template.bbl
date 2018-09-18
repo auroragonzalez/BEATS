@@ -1,0 +1,105 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{perez2008review}
+L.~P{\'e}rez-Lombard, J.~Ortiz, C.~Pout, A review on buildings energy
+  consumption information, Energy and buildings 40~(3) (2008) 394--398.
+
+\bibitem{ashrae2002ashrae}
+A.~S. Committee, et~al., Ashrae guideline 14, measurement of energy and demand
+  savings. atlanta.".
+
+\bibitem{heo2012gaussian}
+Y.~Heo, V.~M. Zavala, Gaussian process modeling for measurement and
+  verification of building energy savings, Energy and Buildings 53 (2012)
+  7--18.
+
+\bibitem{li2014review}
+X.~Li, J.~Wen, Review of building energy modeling for control and operation,
+  Renewable and Sustainable Energy Reviews 37 (2014) 517--537.
+
+\bibitem{crawley2001energyplus}
+D.~B. Crawley, L.~K. Lawrie, F.~C. Winkelmann, W.~F. Buhl, Y.~J. Huang, C.~O.
+  Pedersen, R.~K. Strand, R.~J. Liesen, D.~E. Fisher, M.~J. Witte, et~al.,
+  Energyplus: creating a new-generation building energy simulation program,
+  Energy and buildings 33~(4) (2001) 319--331.
+
+\bibitem{TRNSYS}
+Thermal energy system specialists, \url{http://www.trnsys.com}, accessed:
+  2017-09-30.
+
+\bibitem{crawley2008contrasting}
+D.~B. Crawley, J.~W. Hand, M.~Kummert, B.~T. Griffith, Contrasting the
+  capabilities of building energy performance simulation programs, Building and
+  environment 43~(4) (2008) 661--673.
+
+\bibitem{braun2014using}
+M.~Braun, H.~Altan, S.~Beck, Using regression analysis to predict the future
+  energy consumption of a supermarket in the uk, Applied Energy 130 (2014)
+  305--313.
+
+\bibitem{ahmad2014review}
+A.~Ahmad, M.~Hassan, M.~Abdullah, H.~Rahman, F.~Hussin, H.~Abdullah, R.~Saidur,
+  A review on applications of ann and svm for building electrical energy
+  consumption forecasting, Renewable and Sustainable Energy Reviews 33 (2014)
+  102--109.
+
+\bibitem{ciabattoni2014fuzzy}
+L.~Ciabattoni, M.~Grisostomi, G.~Ippoliti, S.~Longhi, Fuzzy logic home energy
+  consumption modeling for residential photovoltaic plant sizing in the new
+  italian scenario, Energy 74 (2014) 359--367.
+
+\bibitem{burnand1952study}
+G.~Burnand, The study of the thermal behaviour of structures by electrical
+  analogy, British Journal of Applied Physics 3~(2) (1952) 50.
+
+\bibitem{coley1992second}
+D.~Coley, J.~Penman, Second order system identification in the thermal response
+  of real buildings. paper ii: recursive formulation for on-line building
+  energy management and control, Building and Environment 27~(3) (1992)
+  269--277.
+
+\bibitem{hamzacebi2014forecasting}
+C.~Hamzacebi, H.~A. Es, Forecasting the annual electricity consumption of
+  turkey using an optimized grey model, Energy 70 (2014) 165--171.
+
+\bibitem{aman2014empirical}
+S.~Aman, M.~Frincu, C.~Charalampos, U.~Noor, Y.~Simmhan, V.~Prasanna, Empirical
+  comparison of prediction methods for electricity consumption forecasting,
+  University of Southern California, Tech. Rep (2014) 14--942.
+
+\bibitem{gonzalez2016towards}
+A.~Gonz{\'a}lez-Vidal, V.~Moreno-Cano, F.~Terroso-S{\'a}enz, A.~F. Skarmeta,
+  Towards energy efficiency smart buildings models based on intelligent data
+  analytics, Procedia Computer Science 83 (2016) 994--999.
+
+\bibitem{ramalloidentifying}
+A.~P. Ramallo-Gonz{\'a}lez, M.~Brown, D.~A. Coley, Identifying the ideal
+  topology of simple models to represent dwellings.
+
+\bibitem{fan2014development}
+C.~Fan, F.~Xiao, S.~Wang, Development of prediction models for next-day
+  building energy consumption and peak power demand using data mining
+  techniques, Applied Energy 127 (2014) 1--10.
+
+\bibitem{edwards2012predicting}
+R.~E. Edwards, J.~New, L.~E. Parker, Predicting future hourly residential
+  electrical consumption: A machine learning case study, Energy and Buildings
+  49 (2012) 591--603.
+
+\bibitem{quilumba2015using}
+F.~L. Quilumba, W.-J. Lee, H.~Huang, D.~Y. Wang, R.~L. Szabados, Using smart
+  meter data to improve the accuracy of intraday load forecasting considering
+  customer behavior similarities, IEEE Transactions on Smart Grid 6~(2) (2015)
+  911--918.
+
+\bibitem{kramer2013energy}
+H.~Kramer, J.~Effinger, E.~Crowe, Energy management and information system
+  (emis) software technology assessment: Considerations for evaluating
+  baselining and savings estimation functionality, Pacific Gas and Electric.
+
+\end{thebibliography}

@@ -1,0 +1,7 @@
+"idx";"Name";"charac_type";"measurepoint";"template";"state";"alarm_limit";"pre_alarm_limit";"last_alarm_limit";"last_prealarm_limit";"last_alarm_ts";"last_pre_alarm_ts";"read_only";"freq_min";"freq_max";"last_value";"timestamp";"export_timestamp";"viewer_envelope_1";"viewer_envelope_2";"viewer_FFT_1";"viewer_FFT_2";"viewer_timesignal_1";"viewer_timesignal_2";"comment_trend";"machineclass"
+1;"ISO 10816";1;6;NA;0;0.0045;60;NA;0.00323152239434421;NA;NA;TRUE;10;1000;NA;"4182837296";4192868914256;NA;NA;NA;NA;NA;NA;NA;1
+2;"Aeff";2;6;NA;0;0.5;60;NA;NA;NA;NA;TRUE;2000;20000;NA;"4182837296";4192868914256;NA;NA;NA;NA;NA;NA;NA;-1
+3;"Asel";3;6;NA;0;0.7;70;3.24248838424683;NA;NA;NA;TRUE;800;20000;NA;"4182837296";4192868914256;NA;NA;NA;NA;NA;NA;NA;-1
+4;"Crestfactor";8;6;NA;0;7;70;NA;NA;NA;NA;TRUE;0;0;NA;"4182837296";4192868914256;NA;NA;NA;NA;NA;NA;NA;-1
+5;"ISO 10816";1;70;NA;0;0.0045;60;0.010600708425045;NA;NA;NA;TRUE;10;1000;NA;"4182837971";4192868914256;NA;NA;NA;NA;NA;NA;NA;1
+6;"Aeff";2;70;NA;0;0.5;60;NA;NA;NA;NA;TRUE;2000;20000;NA;"4182837971";4192868914256;NA;NA;NA;NA;NA;NA;NA;-1

@@ -1,0 +1,286 @@
+---
+title: "Matriculas desde el 2009 de Máster y titulaciones de grado"
+subtitle: "`Ejemplo de informe automático curso: (2018-TI-1-2-1) INTRODUCCIÓN AL ANÁLISIS DE DATOS CUANTITATIVOS EN LA GESTIÓN UNIVERSITARIA`"
+# subtitle: "`Reunión mantenida el día XX/XX/2017`"
+date: "`r format(Sys.time(), '%A %d de %B de %Y, %H:%M')`"
+author:
+  - name: Francisco García Mateo
+    thanks: Oficina del Dato Único, <pacom@um.es>
+  - name: Verónica Salido Martínez
+    thanks: Oficina del Dato Único, veronica.salido@um.es
+  - name: Guillermo Santioago Martínez
+    thanks: Oficina del Dato Único, gsm4@um.es
+  - name: Aurora González Vidal
+    thanks: aurora.gonzalez2@um.es
+  - name: Antonio Maurandi López
+    thanks: amaurandi@um.es
+  
+referencia: "~/git/adGUMU/materiales/sesion2/"
+origen: "`r knitr::current_input()`"
+toc: yes
+toc-depth: 1
+lot: no
+lof: no
+bibliography:
+- ~/git/adGUMU/materiales/referencias/referencias.bib
+- refs-citation.bib
+# csl: apa.csl
+nocite: |
+  @amaurandi13
+output: 
+  pdf_document: 
+    fig_caption: yes
+    keep_tex: no
+    template: "templateUMUestilo.latex"
+---
+
+\estapagnonum
+
+\newpage
+
+
+```{r setup, include=FALSE}
+library("knitr")
+opts_chunk$set( dev = "pdf", comment = "R#", echo = FALSE, fig.align = "center" )   # para pdf
+opts_chunk$set( fig.width = 5, fig.height = 4 )   # para pdf
+opts_chunk$set( dev = "png", dpi = 170, fig.path = "figuresR101/" ) # para generar PNGs
+
+options(width = 90)
+
+library("knitcitations")
+cite_options(citation_format = "pandoc", hyperlink = TRUE)
+```
+
+
+
+```{r librerias-espez}
+library(printr)
+```
+
+# Sobre la lectura de datos
+
+ Lo primero que haremos en un informe automático es dejar bien claro qué datos leemos, en segundo lugar trabajaremos el fichero de datos: lo _limpiaremos_ y haremos modificaciones que deberán quedar perfectamente documentadas.
+ 
+ En general la ODU nos proporcionará datos bien documentados y validados, es posible que solo tengamos que seleccionar que queremos trabajar, filtrar los datos sobre los que queremos centrarnos.
+
+<!--
+27/04 aurorax: esta frase no se entiende: 
+solo tengamos que seleccionar que queremos trabajar, filtrar los datos sobre los que queremos centrarnos.
+-->
+
+
+```{r lecturadatos, eval=FALSE}
+df <- read.table("../datos/PRH_MATRICULADOS_DATA_VIEW_1.dsv", sep=";", dec = ",", header=TRUE, stringsAsFactors = FALSE)
+# head(df)
+# hay muchos
+set.seed(pi)
+indices <- sample (1:nrow(df), size=(nrow(df)*0.1))
+df <- df[indices,]        
+# str(df)        
+
+datos <- write.table(df[-769,], file="datos.csv", sep="\t", dec=".", na="NA", fileEncoding ="UTF-8",  col.names = TRUE )  # quito el 769 pq debe haber algun codigo rarerejo q me impide vilver a leer si hago el writetable...  
+```
+
+
+```{r lecturadatos2}
+
+df2<- read.table("datos.csv", header = T, sep="\t", stringsAsFactors = F)  # podemos quedarnos con estos datos, solo un 10% de los que me pasa Paco
+# head(df2)
+```
+
+Hemos leido **`r nrow(df2)`** filas.
+
+
+```{r head}
+head( df2[ ,c(1,2,5)] )
+```
+
+
+## Anotamos el fichero de datos
+
+- Factorizamos 
+Algunas variables. Ojo al diccionario de datos
+
+Las variables categóricas en R se deben definir como factores. En el caso de aplicar modelos estadísticos, entre otras funcionalidades, las variables categóricas y las numéricas son tratadas de forma diferente, por lo tanto al convertirlas en factores nos aseguramos de que las variables se van a tratar de forma correcta.
+
+
+
+```{r annotate}
+str(df2$TIPO_ESTUDIOS_COD)
+df2$TIPO_ESTUDIOS_COD <- factor(df2$TIPO_ESTUDIOS_COD)
+str(df2$TIPO_ESTUDIOS_COD)
+levels(df2$TIPO_ESTUDIOS_COD)
+```
+
+```{r otros factores, eval=FALSE}
+df2$UNIDAD_DES
+df2$TIPO_CENTRO_COD
+df2$LOCALIDAD_UNIDAD_DES
+df2$MUNICIPIO_UNIDAD_DES
+df2$SEXO_ESTUDIANTE_COD
+```
+
+
+Quizás sería bueno quitar variables para alijerar el documento
+<!--
+27/04 aurorax: vamos viendo cuáles usamos para los factores y demás y luego borramos el resto
+-->
+
+
+#  Ejemplo de filtrado de datos
+
+<!--
+Hay que pensar an alguna tabla resumen.
+-->
+
+Veamos cómo se distribuye el tipo de estudios por género:
+
+```{r}
+table(df2$TIPO_ESTUDIOS_COD, df2$SEXO_ESTUDIANTE_COD)
+```
+
+Las etiquetas de los factores se pueden renombrar con nombres que describan mejor su significado
+
+```{r}
+levels(df2$TIPO_ESTUDIOS_COD) <- c("CicloCorto", "Grado", "CicloLargo", "Master", "SegundoCicloLargo", "ProgramacionConjunta", "SegundoCiclo")
+table(df2$TIPO_ESTUDIOS_COD, df2$SEXO_ESTUDIANTE_COD)
+```
+
+
+# Ejemplo de tabla simple
+
+Veamos por rama de conocimiento si los alumnos avanzan de curso o no:
+
+```{r}
+avancePorRama <- table(df2$ESTUDIO_RAMA_DES, df2$AVANCE)
+avancePorRama
+```
+
+
+
+
+# Ejemplo de cálculo de indicadores
+
+Porcentaje de estudiantes que pasan de curso por rama de conocimiento
+
+```{r}
+round(prop.table(avancePorRama,1)*100,2)
+```
+
+# Ejemplos de gráficos
+
+Vemos que hay datos que son faltantes porque las notas de admisión no pueden ser superiores a 14.
+
+```{r}
+plot(df2$NOTA_ADMISION_ESTUDIO)
+```
+
+Filtramos el conjunto de datos
+
+```{r}
+df3 <- df2[df2$NOTA_ADMISION_ESTUDIO <=14,]
+plot(df3$NOTA_ADMISION_ESTUDIO)
+```
+Asimismo, eliminaremos las notas que son inferiores a 5
+
+```{r}
+df4 <- df3[df3$NOTA_ADMISION_ESTUDIO >=5,]
+plot(df4$NOTA_ADMISION_ESTUDIO)
+```
+
+```{r}
+plot(df4$NOTA_ADMISION_ESTUDIO)
+```
+
+Nota media de acceso a estudios universitarios con respecto al estudio de los padres. En el gráfico por defecto ya se pueden observar factores interesantes:
+
+```{r}
+plot(factor(df4$NIVEL_ESTUDIOS_PADRE_DES), df4$NOTA_ADMISION_ESTUDIO)
+```
+
+- La mediana de las notas no varía demasiado entre las diferentes categorías (rango 6-8) 
+- Sin embargo, mientras que obtener por encima de 10 para padres analfabetos y por encima de 13 para padres con estudios primarios se consideran valores atípicos, para aquellos alumnos con padres que poseen estudios superiores no se considera atípico obtener notas que alcanzan el 14. 
+
+El gráfico se puede mejorar mucho:
+
+```{r}
+plot(factor(df4$NIVEL_ESTUDIOS_PADRE_DES), df4$NOTA_ADMISION_ESTUDIO)
+
+library(ggplot2)
+ 
+# Data 
+names=c(rep("A", 80) , rep("B", 50) , rep("C", 70))
+value=c( sample(2:5, 80 , replace=T) , sample(4:10, 50 , replace=T), 
+       sample(1:7, 70 , replace=T) )
+data=data.frame(names,value)
+ 
+#Graph
+df5 = df4
+names = levels(df5$NIVEL_ESTUDIOS_PADRE_DES)
+value = df5$NOTA_ADMISION_ESTUDIO
+
+df5$NIVEL_ESTUDIOS_PADRE_DES = factor(df5$NIVEL_ESTUDIOS_PADRE_DES)
+
+qplot( x=df5$NIVEL_ESTUDIOS_PADRE_DES , y=value , data=df5 , geom=c("boxplot","jitter") , fill=df5$NIVEL_ESTUDIOS_PADRE_DES)
+
+ggplot(df5, aes(factor(df5$NIVEL_ESTUDIOS_PADRE_DES), df5$NOTA_ADMISION_ESTUDIO)) + 
+  geom_violin(aes(fill = df5$NIVEL_ESTUDIOS_PADRE_DES))
+
+ggplot(df5, aes(x=df5$NIVEL_ESTUDIOS_PADRE_DES, y=df5$NOTA_ADMISION_ESTUDIO)) + 
+    geom_boxplot(
+        
+        # custom boxes
+        color="blue",
+        fill="blue",
+        alpha=0.2,
+        
+        # Notch?
+        notch=TRUE,
+        notchwidth = 0.8,
+        
+        # custom outliers
+        outlier.colour="red",
+        outlier.fill="red",
+        outlier.size=3
+    
+    )
+ 
+```
+
+
+
+\newpage
+
+```{r}
+sessionInfo()
+```
+
+
+
+# Referencias y bibliografía
+
+<!--
+Para citar artículos o libros utilizamos:
+
+- @codigo en caso de usar `pandoc-citeproc`
+- \cite{codigo}, \citep{codigo}, etc. en caso de usar `biblatex`
+
+
+Para citar paquetes utilizados:
+
+- `r citet(citation("pander"))` 
+- `r citep(citation("pander"))` 
+
+
+Para las referencias no citadas:
+
+1. `r record_as_cited(citation("ggplot2"))` 
+2. \nocite{codigo_generado} # abrir el refs-citation.bib
+
+-->
+
+
+```{r biblio, echo=FALSE, message=FALSE}
+write.bibtex(file = "refs-citation.bib")
+```
+

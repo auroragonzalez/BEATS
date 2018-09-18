@@ -1,0 +1,46 @@
+load Data_TransProb
+data(1:10,:)
+
+P = transprob(data)
+
+mc = dtmc(P)
+X = simulate(mc,10);
+
+sample = TsetClean(15760:15860,1:10);
+
+
+
+[nrow ncol] = size(sample);
+
+
+%time = repmat(1:nrow,1,ncol);
+
+t1 = datetime(2013,11,1,8,0,0);
+t2 = datetime(2013,11,5,12,0,0);
+t = t1:hours(1):t2
+time = repmat(t,1,ncol);
+
+Rating = sample(:);
+Rating(isnan(Rating))=0;
+Rating2 = string(Rating);
+
+
+ID = repelem(1:ncol,nrow);
+
+ID2 = ID'
+time2 = string(time')
+data2 = table(ID2, time', string(Rating))
+ 
+
+
+{ID2, time'}
+
+num2str(ID2,'%02d')
+
+cellstr(num2str(ID2,'%02d'))
+
+P = transprob(data2)
+
+mc = dtmc(P)
+X = simulate(mc,10);
+

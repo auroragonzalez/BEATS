@@ -1,0 +1,113 @@
+load('variable2')
+%Case 1: all sensors are hard sensors delete the one under study
+
+motes_for_BME=[1:4 6:14 16:17 19:54];
+locations = dlmread('locations.txt');
+
+time = zeros(length(ns),1);
+MAPE = zeros(length(ns),1);
+RMSE = zeros(length(ns),1);
+CVRMSE = zeros(length(ns),1);
+
+
+N=54; %observations
+matrixForNA=eye(54)
+%csvwrite('/home/aurora/Git_repos/posgradoActual/Melbourne/BMECode/NApos.csv', positions.*matrixForNA);
+
+
+%M = (matrixForNA)'
+NAPerSensor = sum(matrixForNA,2)';
+[row,col] = find(matrixForNA);
+sr = sortrows([row,col],1);
+NAPositionsWithinSensors = sr(:,2)';
+%rem(sort(elements), N+1)
+
+%NAPerSensor = randi(10, 1, length(motes_for_BME));
+%NAPositionsWithinSensors = randi(N, 1, sum(NAPerSensor))  %consider 1000 values
+
+
+
+
+ck = locations(ismember(locations(:,1),motes_for_BME),2:3);
+thesensor = motes_for_BME;
+
+cs = [];
+
+motes_for_BME2=[1:4 6:14 16:17 19:54];
+   
+%temp = zeros(50,sum(NAPerSensor));
+
+mysize = length(motes_for_BME2)-1
+mloc = zeros(50,2,length(thesensor));
+
+v = zeros(1, length(thesensor));
+temp2 = zeros(mysize, length(thesensor));
+
+ssaux=1
+for(sens = 1:length(motes_for_BME))
+%    motes = motes_for_BME2(~ismember(motes_for_BME2,motes_for_BME(sens))); % get rid of the one we want to predict 
+    for k = 1:NAPerSensor(sens)
+            motesWithNAsamePosition = motes_for_BME2(sr(find(sr(:,2)==NAPositionsWithinSensors(ssaux)),1)); %get rid of the ones that have a NA in the place and also the one we want to predict
+            motes = motes_for_BME2(~ismember(motes_for_BME2,motesWithNAsamePosition));
+            %motes = motes_for_BME2(~ismember(motes_for_BME2,motes_for_BME(sens)));
+            loc = locations(ismember(locations(:,1), motes),2:3);
+            v(ssaux) = length(loc(:,1));
+            mloc(1:length(loc),:,ssaux) = loc;
+            for m = 1:length(motes)
+                temp2(m,ssaux) =eval(['mote_' num2str(motes(m)) '_temprature_actual(NAPositionsWithinSensors(ssaux))']);
+            end
+%            ch3{ssaux} = locations(ismember(locations(:,1), motes),2:3);
+
+            ssaux = ssaux+1;
+    end
+end
+
+
+%temp(:,1) all sensors minus the first temperature in the position of the first NA 
+
+tempReal = zeros(51,1);
+
+ssaux=1
+for(sens = 1:length(motes_for_BME))
+    for k = 1:NAPerSensor(sens)
+        tempReal(ssaux) =eval(['mote_' num2str(motes_for_BME(sens)) '_temprature_actual(NAPositionsWithinSensors(ssaux))']);
+        ssaux = ssaux+1;
+    end
+end
+
+
+
+temperature = temp;
+a_temperature=[];
+b_temperature=[];
+
+
+modelCsand={'nuggetC','exponentialC'};
+paramsand={-0.0795,[0.6656,22.3507]};
+%nhmax=4;
+nsmax=3;
+total=nhmax+nsmax;
+dmax=100;
+order=0;
+
+real_temperature = tempReal;
+
+
+
+nhmax = 3
+tic
+predict_temprature_BME6 = BMEintervalMode6(ck,mloc,v,cs,temp2,a_temperature,b_temperature,modelCsand,paramsand,nhmax,nsmax,dmax,order);
+time = toc
+%time(n) = toc
+
+
+MAPE_now = sum(100*abs((real_temperature-predict_temprature_BME6)./real_temperature))/length(real_temperature)
+RMSE_now = sqrt(mean((real_temperature - predict_temprature_BME6).^2))
+CVRMSE_now = RMSE_now/mean(real_temperature)*100
+
+MAPE(n) = MAPE_now
+
+RMSE(n) = RMSE_now
+CVRMSE(n) = CVRMSE_now
+
+

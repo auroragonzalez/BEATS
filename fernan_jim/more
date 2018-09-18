@@ -1,0 +1,27 @@
+MultiobjectiveEvolutionarySearch explores the attribute space using the ENORA Multi-objective Evolutionary Algorithm. Two objectives are optimized. The first one is to be maximized and it is chosen by the evaluator. The second one is to minimize the subset cardinality.The non-dominated solution in the last population with the best fitness for the first objective is shown as output.
+
+ENORA is an elitist Pareto-based multi-objective evolutionary algorithm that uses a(mu+lambda) survival with the following operators:
+
+- Uniform random initialization.
+- Binary tournament selection.
+- Ranking based on local non-domination level with crowding distance.
+- Self-adaptive uniform crossover.
+- Self-adaptive one-bit flip mutation.
+
+For more information about ENORA see:
+
+F. Jimenez, G. Sanchez, J.M. Garcia, G. Sciavicco, L. Miralles (2016). Multi-objective evolutionary feature selection for online sales forecasting. http://dx.doi.org/10.1016/j.neucom.2016.12.045. 
+
+
+
+PSOSearch explores the attribute space using the Particle Swarm Optimization (PSO) algorithm described in:
+
+Moraglio, A., Di Chio, C., and Poli, R.
+Geometric Particle Swarm Optimisation.
+EuroGP 2007, LNCS 445, pp. 125-135.
+
+For an application to gene expression data classification, see:
+
+Garcia-Nieto, J.M., Alba, E., Jourdan, L., and Talbi, E.-G.
+Sensitivity and specificity based multiobjective approach for feature selection: Application to cancer diagnosis.
+Information Processing Letters, 109(16):887-896, July 2009.

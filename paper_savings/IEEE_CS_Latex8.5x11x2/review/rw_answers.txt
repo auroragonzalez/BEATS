@@ -1,0 +1,73 @@
+
+Scientifically the paper provides a style accessible to a general audience. Some
+phrases are too vague or disputable, thus need to be clearified. E.g.
+[...]
+selftuning process (which is different from mathematical models such as regression models)
+[...]
+or
+[...]
+We have avoided the use of change-point models adding novelty to our approach.
+[...]
+Regarding the former one, supervised learning can be actually viewed as a regression
+problem, cf. standard literature such as Chapt. 3 of 'Pattern Recognition and Machine Learning'
+(Bishop, 2009).
+Wrt. the latter, time series that are modeled without change-points could be viewed
+as the trivial case of a change-point model with zero change-points in case the paper
+referres to the topic reviewed in e.g. "A Survey of Methods for Time Series Change Point Detection"
+(Aminikhanghahi & Cook, 2017).
+
+-------
+ANSWER:
+
+We undertsand that the terminology could be misleading so we added an extra paragraph so that to assure that the reader does not get confused. We felt the need of separating the two terms because in the way we use it regression's parameters are calibrated while machine learning is done through hyperarameter cross validation. It is justified by citing a very well known study written by Leo Breiman that compares the two ways of using models in order to get insights from the data.
+
+
+We have realised that the use of the term change-point has been unfortunate because it leads to confusion with the term in time series analysis that you mention. In order to ensure that this confusion does not happen again we have removed such paragraph
+
+------
+
+The remaining differentiator of the paper
+[...]
+our method differes from existing [...] we are relating the input as a time series
+with single output.
+[...]
+is standard supervised machine learning. Though, the comparison to the RCN is useful.
+
+ANSWER: 
+
+Normally, relationships in machine learning are stablished one to one. That means, input now relates to output now and so on. We have used a time series in order to relate with a single output. 
+
+
+-----------
+It might be a bit too simplistic? In particular, according to the text, Eq. 1
+reduces to y(t) = A*x(t) + B*u(t) ? 
+
+ANSWER:
+
+We don't fully understand this comment. Just to clarify, "y" are the measurement and "x" are the states. Although in some cases they could represent the same thing, the general formulation separates them into two different vectors. 
+-------------
+
+A quantitative discussion on the validity of
+comparing this model to the machine learning approach would be beneficial.
+
+
+ANSWER:
+
+For the quantification of the accuracy of the grey box models the reader is refered to Bacher et al (ref) and Rammalo ret al (ref) . The reason why these very different models were compared is twofold: First: The literature shows that both models are being largely used by the scientific community, and second: these two models may offer very different things to the user. The LPM provides phisically emaningful information about the building, whereas the machine learning technique is more versatile and tends to be more accurate.
+
+------
+
+Regarding the workshop's focus on IoT and big data analytics the paper's content might be too loosely connected. One year of hourly temperature data comprises on
+the order of 10k measurements, i.e. on the order of megabytes of data. Interconnection of measurement devices through the internet is not discussed (yet).
+
+ANSWER:
+
+We fully agree that the dataset we are using is nowhere near Big Data. However, the paper presents a savings validation methodology that can be applied using real-time data and that is suitable to scenarios where inmediate answer has to be provided. Data is also cleaned, since as it is said in the paper, we use hourly means in order to create the static dataset. Our methodology is applicable with data that comes every hour, every minute or even every second. Also, it is well-known that the proposed methods such as XGB and random forest can be parallelizable, realising other of the Big Data challenges.
+
+
+------
+
+
+
+
+

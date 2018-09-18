@@ -1,0 +1,141 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Liu:1998:FSK:551944}
+H.~Liu, H.~Motoda, Feature Selection for Knowledge Discovery and Data Mining,
+  Kluwer Academic Publishers, Norwell, MA, USA, 1998.
+
+\bibitem{Kar10}
+A.~G. Karegowda, A.~S. Manjunath, M.~A. Jayaram, Comparative study of attribute
+  selection using gain ratio and correlation based feature selection,
+  International Journal of Information Technology and Knowledge Management
+  2~(2) (2010) 271--277.
+
+\bibitem{Hal98}
+M.~A. Hall, Correlation-based feature selection for machine learning, Tech.
+  rep., University of Waikato (1999).
+
+\bibitem{Ami05}
+A.~Ahmad, L.~Dey, A feature selection technique for classificatory analysis,
+  Pattern Recognition Letters 26~(1) (2005) 43--56.
+
+\bibitem{kohavi1997wrappers}
+R.~Kohavi, G.~H. John, Wrappers for feature subset selection, Artificial
+  intelligence 97~(1-2) (1997) 273--324.
+
+\bibitem{Japkowicz:2011:ELA:1964882}
+N.~Japkowicz, M.~Shah, Evaluating Learning Algorithms: A Classification
+  Perspective, Cambridge University Press, New York, NY, USA, 2011.
+
+\bibitem{Sal94}
+S.~Salzberg, \href{http://dx.doi.org/10.1007/BF00993309}{C4.5: Programs for
+  machine learning by j. ross quinlan. morgan kaufmann publishers, inc., 1993},
+  Machine Learning 16~(3) (1994) 235--240.
+\newblock \href {http://dx.doi.org/10.1007/BF00993309}
+  {\path{doi:10.1007/BF00993309}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1007/BF00993309}
+
+\bibitem{Weka}
+I.~H. Witten, E.~Frank, M.~A. Hall, Introduction to weka, in: I.~H. Witten,
+  E.~Frank, M.~A. Hall (Eds.), Data Mining: Practical Machine Learning Tools
+  and Techniques (Third Edition), third edition Edition, The Morgan Kaufmann
+  Series in Data Management Systems, Morgan Kaufmann, Boston, 2011, pp. 403 --
+  406.
+
+\bibitem{yujor}
+J.~Novakovic,
+  \href{http://yujor.fon.bg.ac.rs/index.php/yujor/article/view/364}{Toward
+  optimal feature selection using ranking methods and classification
+  algorithms}, Yugoslav Journal of Operations Research 21~(1).
+\newline\urlprefix\url{http://yujor.fon.bg.ac.rs/index.php/yujor/article/view/364}
+
+\bibitem{russell2003modern}
+S.~Russell, P.~Norvig, Artificial Intelligence: A Modern Approach, 2nd Edition,
+  Prentice-Hall, 2003.
+
+\bibitem{jimenez2016multi}
+F.~Jim{\'e}nez, G.~S{\'a}nchez, J.~Garc{\'\i}a, G.~Sciavicco, L.~Miralles,
+  Multi-objective evolutionary feature selection for online sales forecasting,
+  Neurocomputing.
+
+\bibitem{moraglio2008geometric}
+A.~Moraglio, C.~Di~Chio, J.~Togelius, R.~Poli, Geometric particle swarm
+  optimization, in: Proceedings of the 10th European Conference on Genetic
+  Programming, 2007, pp. 125--136.
+
+\bibitem{liu1996probabilistic}
+H.~Liu, R.~Setiono, A probabilistic approach to feature selection - a filter
+  solution, in: Proceedings of the 13th International Conference on Machine
+  Learning (ICML), Vol.~96, 1996, pp. 319--327.
+
+\bibitem{Kira:1992:PAF:141975.142034}
+K.~Kira, L.~A. Rendell,
+  \href{http://dl.acm.org/citation.cfm?id=141975.142034}{A practical approach
+  to feature selection}, in: Proceedings of the Ninth International Workshop on
+  Machine Learning, ML92, Morgan Kaufmann Publishers Inc., San Francisco, CA,
+  USA, 1992, pp. 249--256.
+\newline\urlprefix\url{http://dl.acm.org/citation.cfm?id=141975.142034}
+
+\bibitem{WICS:WICS101}
+H.~Abdi, L.~J. Williams, \href{http://dx.doi.org/10.1002/wics.101}{Principal
+  component analysis}, Wiley Interdisciplinary Reviews: Computational
+  Statistics 2~(4) (2010) 433--459.
+\newblock \href {http://dx.doi.org/10.1002/wics.101}
+  {\path{doi:10.1002/wics.101}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1002/wics.101}
+
+\bibitem{Schaefer2016b}
+R.~Schafer,
+  \href{http://link.springer.com/article/10.1007/s10579-016-9359-2}{Accurate
+  and efficient general-purpose boilerplate detection for crawled web corpora},
+  Language Resources and EvaluationOnline first.
+\newblock \href {http://dx.doi.org/10.1007/s10579-016-9359-2}
+  {\path{doi:10.1007/s10579-016-9359-2}}.
+\newline\urlprefix\url{http://link.springer.com/article/10.1007/s10579-016-9359-2}
+
+\bibitem{breiman2001random}
+L.~Breiman, Random forests, Machine learning 45~(1) (2001) 5--32.
+
+\bibitem{Aha:1991:ILA:104713.104717}
+D.~W. Aha, D.~Kibler, M.~K. Albert,
+  \href{https://doi.org/10.1023/A:1022689900470}{Instance-based learning
+  algorithms}, Mach. Learn. 6~(1) (1991) 37--66.
+\newblock \href {http://dx.doi.org/10.1023/A:1022689900470}
+  {\path{doi:10.1023/A:1022689900470}}.
+\newline\urlprefix\url{https://doi.org/10.1023/A:1022689900470}
+
+\bibitem{yan2009linear}
+X.~Yan, \href{https://books.google.es/books?id=MjNv6rGv8NIC}{Linear Regression
+  Analysis: Theory and Computing}, World Scientific Publishing Company Pte
+  Limited, 2009.
+\newline\urlprefix\url{https://books.google.es/books?id=MjNv6rGv8NIC}
+
+\bibitem{Willmott200579}
+C.~J. Willmott, K.~Matsuura,
+  \href{http://www.scopus.com/inward/record.url?eid=2-s2.0-30444437204\&partnerID=40\&md5=f6cc3ae6e3cc72cbd4c1253f8ff3b9bb}{{Advantages
+  of the mean absolute error (MAE) over the root mean square error (RMSE) in
+  assessing average model performance}}, Climate Research 30~(1) (2005) 79--82,
+  cited By (since 1996)149.
+\newline\urlprefix\url{http://www.scopus.com/inward/record.url?eid=2-s2.0-30444437204\&partnerID=40\&md5=f6cc3ae6e3cc72cbd4c1253f8ff3b9bb}
+
+\bibitem{Gonzalez2017}
+A.~González-Vidal, A.~Ramallo-González, F.~Terroso-Sáenz, A.~F. Skarmeta,
+  {Data driven modeling for energy consumption prediction in smart buildings},
+  in: {IEEE International Conference on Big Data}, {2017}.
+
+\bibitem{gonzalez2016towards}
+A.~Gonz{\'a}lez-Vidal, V.~Moreno-Cano, F.~Terroso-S{\'a}enz, A.~F. Skarmeta,
+  Towards energy efficiency smart buildings models based on intelligent data
+  analytics, Procedia Computer Science 83 (2016) 994--999.
+
+\bibitem{Vantuch2018}
+T.~Vantuch, A.~González-Vidal, A.~Ramallo-González, A.~F. Skarmeta,
+  S.~Mišák, {Machine Learning Based Electric Load Forecasting for Short and
+  Long-term Period}, in: {IEEE 4th World Forum on Internet of Things (WF-IoT)},
+  {2018}.
+
+\end{thebibliography}

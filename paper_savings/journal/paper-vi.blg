@@ -1,0 +1,71 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: paper-vi.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: IEEEabrv.bib
+Database file #2: bib.bib.bib
+Repeated entry---line 279 of file bib.bib.bib
+ : @article{how2017
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 353 of file bib.bib.bib
+ : @article{coley1992second
+ :                         ,
+I'm skipping whatever remains of this entry
+-- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty author in energyUS
+Warning--empty journal in ashrae2002ashrae
+Warning--empty journal in ramalloidentifying
+Warning--empty year in ramalloidentifying
+Warning--empty journal in inform
+
+Done.
+You've used 33 entries,
+            4039 wiz_defined-function locations,
+            1388 strings with 21686 characters,
+and the built_in function-call counts, 25698 in all, are:
+= -- 2091
+> -- 712
+< -- 229
++ -- 385
+- -- 128
+* -- 1252
+:= -- 3831
+add.period$ -- 67
+call.type$ -- 33
+change.case$ -- 34
+chr.to.int$ -- 519
+cite$ -- 38
+duplicate$ -- 1850
+empty$ -- 1897
+format.name$ -- 155
+if$ -- 5875
+int.to.chr$ -- 0
+int.to.str$ -- 33
+missing$ -- 321
+newline$ -- 122
+num.names$ -- 31
+pop$ -- 738
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 1963
+stack$ -- 0
+substring$ -- 1253
+swap$ -- 1543
+text.length$ -- 56
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 33
+warning$ -- 5
+while$ -- 125
+width$ -- 35
+write$ -- 336
+(There were 2 error messages)

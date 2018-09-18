@@ -1,0 +1,20 @@
+
+
+
+Fernando: 
+
+A)
+
+Table I y Fig 2 tienen demasiada información común. ¿Puedes juntarlo todo en la Fig 2? Yo quitaría la Table I y haría dos modificaciones a la Fig2: 
+1. quitar el Rombo "Reduced Databases". No me gusta, quizás se puede mencionar que se han creado 10 reduced databases que se correponden a las 10 Feature Selection techniques pero no me gusta que seamos tan explícitos en el diagrama. Yo lo pondría al lado del nombre MOES-RF-RMSE (#1) y así.
+
+2. En el cuadrado de Reduced databases, diferenciar cuáles son Wrapper Multivariate, Wrapper Univariate, Filter Mutlivariate y Filter Univariate
+
+
+B)
+
+¿Puedes juntar las Table V y VI poniendo a la izquierda del todo, justo delante de los modelos: MAE en vertical y RMSE en vertical? Así las pones una encima de otra sin repetir la cabecera y creo que queda más compacto.
+
+Lo mismo para Table III y Table IV pero esta vez añadiendo una fila más entre la cabecera de la tabla y los datos que hay en la tabla.
+
+C)  similarly, a mark v denotes a statistically better: ¿de dónde viene esa v?
