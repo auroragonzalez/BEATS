@@ -1,0 +1,16 @@
+Hola Alfonso.
+
+Al final lo he conseguido hacer hoy.
+
+Adjunto todo:
+
+mEt.mat = matrices de los valores estimados con MLE con 10 filas y 10 columnas que corresponden a los siguientes estados: 21,22,23,24, ... ,29,30
+mLt.mat = matrices lower confidence interval
+mUt.mat = matrices upper confidence interval
+MarkovChain-i.R: código para generar los objetos con R
+
+Más info sobre el paquete: https://cran.r-project.org/web/packages/markovchain/vignettes/an_introduction_to_markovchain_package.pdf
+
+Cualquier cosa, me dices.
+
+Saludos!
