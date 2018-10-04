@@ -1,7 +1,8 @@
 \select@language {english}
+\select@language {spanish}
 \par \penalty \@M \unhbox \voidb@x \hbox {}\hfill {\bfseries Page}\par \penalty \@M 
-\contentsline {chapter}{List of Tables}{vii}{section*.3}
-\contentsline {chapter}{List of Figures}{ix}{section*.4}
+\contentsline {chapter}{\'{I}ndice de cuadros}{vii}{section*.3}
+\contentsline {chapter}{\'{I}ndice de figuras}{ix}{section*.4}
 \select@language {spanish}
 \contentsline {chapter}{\chapternumberline {1}Resumen}{1}{chapter.1}
 \select@language {english}
