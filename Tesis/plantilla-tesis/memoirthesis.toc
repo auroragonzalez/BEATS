@@ -7,11 +7,24 @@
 \contentsline {chapter}{\chapternumberline {1}Resumen}{1}{chapter.1}
 \select@language {english}
 \contentsline {chapter}{\chapternumberline {2}Abstract}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Motivation and Goals}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Results}{4}{section.2.2}
+\contentsline {section}{\numberline {2.3}Conclusions and Future Work}{4}{section.2.3}
+\contentsline {section}{\numberline {2.4}Organisation of the Thesis}{4}{section.2.4}
 \contentsline {chapter}{\chapternumberline {3}Introduction}{5}{chapter.3}
-\contentsline {section}{\numberline {3.1}Section}{5}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Subsection}{5}{subsection.3.1.1}
-\contentsline {chapter}{\chapternumberline {4}Publications composing the PhD Thesis}{9}{chapter.4}
-\contentsline {section}{\numberline {4.1}BEATS: Blocks of Eigenvalues Algorithm for Time Series Segmentation}{9}{section.4.1}
-\contentsline {section}{\numberline {4.2}Applicability of Big Data Techniques to Smart Cities Deployments}{24}{section.4.2}
-\contentsline {section}{\numberline {4.3}An open IoT platform for the management and analysis of energy data}{35}{section.4.3}
-\contentsline {appendix}{\chapternumberline {A}Appendix A}{51}{appendix.A}
+\contentsline {section}{\numberline {3.1}Related Work}{5}{section.3.1}
+\contentsline {section}{\numberline {3.2}Data analysis in IoT based Smart Environments}{5}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Collection of data}{5}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Data description and cleaning}{5}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Reducing redundant information}{5}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Modelling}{5}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}Platforms and Services}{5}{section.3.3}
+\contentsline {section}{\numberline {3.4}Leasons Learned}{5}{section.3.4}
+\contentsline {chapter}{\chapternumberline {4}Publications composing the PhD Thesis}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}BEATS: Blocks of Eigenvalues Algorithm for Time Series Segmentation}{7}{section.4.1}
+\contentsline {section}{\numberline {4.2}A methodology for Energy Multivariate Time Series Forecasting in Smart Buildings based on Feature Selection}{22}{section.4.2}
+\contentsline {section}{\numberline {4.3}Commissioning of the Controlled and Automatized Testing Facility for Human Behavior and Control (CASITA)}{40}{section.4.3}
+\contentsline {section}{\numberline {4.4}Applicability of Big Data Techniques to Smart Cities Deployments}{57}{section.4.4}
+\contentsline {section}{\numberline {4.5}An open IoT platform for the management and analysis of energy data}{68}{section.4.5}
+\contentsline {section}{\numberline {4.6}Providing Personalized Energy Management and Awareness Services for Energy Efficiency in Smart Buildings}{83}{section.4.6}
+\contentsline {appendix}{\chapternumberline {A}Appendix A}{105}{appendix.A}

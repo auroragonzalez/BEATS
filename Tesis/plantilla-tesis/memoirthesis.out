@@ -2,11 +2,24 @@
 \BOOKMARK [0][-]{section*.4}{\315ndice de figuras}{}% 2
 \BOOKMARK [0][-]{chapter.1}{Resumen}{}% 3
 \BOOKMARK [0][-]{chapter.2}{Abstract}{}% 4
-\BOOKMARK [0][-]{chapter.3}{Introduction}{}% 5
-\BOOKMARK [1][-]{section.3.1}{Section}{chapter.3}% 6
-\BOOKMARK [2][-]{subsection.3.1.1}{Subsection}{section.3.1}% 7
-\BOOKMARK [0][-]{chapter.4}{Publications composing the PhD Thesis}{}% 8
-\BOOKMARK [1][-]{section.4.1}{BEATS: Blocks of Eigenvalues Algorithm for Time Series Segmentation}{chapter.4}% 9
-\BOOKMARK [1][-]{section.4.2}{Applicability of Big Data Techniques to Smart Cities Deployments}{chapter.4}% 10
-\BOOKMARK [1][-]{section.4.3}{An open IoT platform for the management and analysis of energy data}{chapter.4}% 11
-\BOOKMARK [0][-]{appendix.A}{Appendix A}{}% 12
+\BOOKMARK [1][-]{section.2.1}{Motivation and Goals}{chapter.2}% 5
+\BOOKMARK [1][-]{section.2.2}{Results}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.3}{Conclusions and Future Work}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.4}{Organisation of the Thesis}{chapter.2}% 8
+\BOOKMARK [0][-]{chapter.3}{Introduction}{}% 9
+\BOOKMARK [1][-]{section.3.1}{Related Work}{chapter.3}% 10
+\BOOKMARK [1][-]{section.3.2}{Data analysis in IoT based Smart Environments}{chapter.3}% 11
+\BOOKMARK [2][-]{subsection.3.2.1}{Collection of data}{section.3.2}% 12
+\BOOKMARK [2][-]{subsection.3.2.2}{Data description and cleaning}{section.3.2}% 13
+\BOOKMARK [2][-]{subsection.3.2.3}{Reducing redundant information}{section.3.2}% 14
+\BOOKMARK [2][-]{subsection.3.2.4}{Modelling}{section.3.2}% 15
+\BOOKMARK [1][-]{section.3.3}{Platforms and Services}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.4}{Leasons Learned}{chapter.3}% 17
+\BOOKMARK [0][-]{chapter.4}{Publications composing the PhD Thesis}{}% 18
+\BOOKMARK [1][-]{section.4.1}{BEATS: Blocks of Eigenvalues Algorithm for Time Series Segmentation}{chapter.4}% 19
+\BOOKMARK [1][-]{section.4.2}{A methodology for Energy Multivariate Time Series Forecasting in Smart Buildings based on Feature Selection}{chapter.4}% 20
+\BOOKMARK [1][-]{section.4.3}{Commissioning of the Controlled and Automatized Testing Facility for Human Behavior and Control \(CASITA\)}{chapter.4}% 21
+\BOOKMARK [1][-]{section.4.4}{Applicability of Big Data Techniques to Smart Cities Deployments}{chapter.4}% 22
+\BOOKMARK [1][-]{section.4.5}{An open IoT platform for the management and analysis of energy data}{chapter.4}% 23
+\BOOKMARK [1][-]{section.4.6}{Providing Personalized Energy Management and Awareness Services for Energy Efficiency in Smart Buildings}{chapter.4}% 24
+\BOOKMARK [0][-]{appendix.A}{Appendix A}{}% 25

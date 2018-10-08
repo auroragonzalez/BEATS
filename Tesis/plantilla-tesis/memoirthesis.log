@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.9.26)  4 OCT 2018 19:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.9.26)  8 OCT 2018 13:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1916,6 +1916,10 @@ LaTeX Info: Redefining \. on input line 28.
 LaTeX Info: Redefining \% on input line 28.
 LaTeX Info: Redefining \. on input line 37.
 LaTeX Info: Redefining \% on input line 37.
+
+
+LaTeX Warning: Label `sec:rw' multiply defined.
+
 )
 \openout1 = `memoirthesis.aux'.
 
@@ -1934,8 +1938,7 @@ LaTeX Font Info:    ... okay on input line 331.
 LaTeX Font Info:    Checking defaults for FML/fncmi/m/it on input line 331.
 LaTeX Font Info:    Try loading font information for FML+fncmi on input line 33
 1.
-
-(/usr/share/texlive/texmf-dist/tex/latex/fouriernc/fmlfncmi.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/fouriernc/fmlfncmi.fd
 File: fmlfncmi.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncmi.
 )
 LaTeX Font Info:    ... okay on input line 331.
@@ -2053,7 +2056,7 @@ line 331.
 Package nag Info: Command \topcaption not defined, skipping amendment on input 
 line 331.
  (./frontmatter/title.tex
-<logos/UMU.jpg, id=55, 187.6611pt x 185.0112pt>
+<logos/UMU.jpg, id=111, 187.6611pt x 185.0112pt>
 File: logos/UMU.jpg Graphic file (type jpg)
  <use logos/UMU.jpg>
 Package pdftex.def Info: logos/UMU.jpg used on input line 23.
@@ -2351,59 +2354,43 @@ File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
-)
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 352.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 352.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 352.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 352.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 352.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 352.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 352.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 352.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 352.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 352.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 352.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 352.
  [5]
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 352.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 352.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 352.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 352.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 352.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 352.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 352.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 352.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 352.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 352.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 352.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 352.
- [6
+Overfull \hbox (1.75146pt too wide) detected at line 31
+ \T1/fnc/b/n/10.95 105
+ []
 
-]
+)
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 9.29993pt on input line 352.
+LaTeX Font Info:    Font shape `T1/fnc/m/sc' will be
+(Font)              scaled to size 9.29993pt on input line 352.
+LaTeX Info: Redefining \. on input line 352.
+LaTeX Info: Redefining \% on input line 352.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 352.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 352.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 352.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 352.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 352.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 352.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 352.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 352.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 352.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 352.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 352.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 352.
+ [6]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 355.
 Package babel Info: Redefining spanish shorthand >>
@@ -2416,8 +2403,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 355.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 355.
-
-(./memoirthesis.lot
+ (./memoirthesis.lot
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
 LaTeX Font Info:    Font shape `T1/fnc/bx/sc' in size <10.95> not available
@@ -2451,7 +2437,9 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 356.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 356.
- [7]
+ [7
+
+]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 356.
 Package babel Info: Redefining spanish shorthand >>
@@ -2626,165 +2614,29 @@ Package babel Info: Redefining spanish shorthand "?
  [2
 
 ] (./chapters/chapter02/chap02.tex
-LaTeX Font Info:    Try loading font information for TS1+fnc on input line 35.
+LaTeX Font Info:    Try loading font information for TS1+fnc on input line 37.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fouriernc/ts1fnc.fd
 File: ts1fnc.fd 2005/12/13 font definitions for TS1/fnc.
 )
 LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
-(Font)              scaled to size 10.18341pt on input line 35.
+(Font)              scaled to size 10.18341pt on input line 37.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `fnc' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 ) [3
 
-] [4
-
-]
+] [4]
 (./chapters/chapter03/chap03.tex
 LaTeX Font Info:    Font shape `T1/fnc/bx/n' in size <12> not available
-(Font)              Font shape `T1/fnc/b/n' tried instead on input line 18.
+(Font)              Font shape `T1/fnc/b/n' tried instead on input line 20.
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 11.15991pt on input line 18.
-
-<chapters/chapter03/fig01/Nswellings.jpeg, id=147, 282.30469pt x 472.76625pt>
-File: chapters/chapter03/fig01/Nswellings.jpeg Graphic file (type jpg)
-
-<use chapters/chapter03/fig01/Nswellings.jpeg>
-Package pdftex.def Info: chapters/chapter03/fig01/Nswellings.jpeg used on input
- line 28.
-(pdftex.def)             Requested size: 106.4369pt x 178.2473pt.
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 8.36993pt on input line 28.
-
-Overfull \hbox (12.54272pt too wide) in paragraph at lines 28--29
- [][] 
- []
-
-<chapters/chapter03/fig01/Mswellings.jpeg, id=148, 117.43875pt x 154.32657pt>
-File: chapters/chapter03/fig01/Mswellings.jpeg Graphic file (type jpg)
-
-<use chapters/chapter03/fig01/Mswellings.jpeg>
-Package pdftex.def Info: chapters/chapter03/fig01/Mswellings.jpeg used on input
- line 33.
-(pdftex.def)             Requested size: 130.8101pt x 171.88478pt.
-
-Overfull \hbox (36.91592pt too wide) in paragraph at lines 33--34
- [][] 
- []
-
-<chapters/chapter03/fig01/rhd1.jpeg, id=149, 164.86594pt x 246.1697pt>
-File: chapters/chapter03/fig01/rhd1.jpeg Graphic file (type jpg)
-
-<use chapters/chapter03/fig01/rhd1.jpeg>
-Package pdftex.def Info: chapters/chapter03/fig01/rhd1.jpeg used on input line 
-38.
-(pdftex.def)             Requested size: 115.12108pt x 171.88478pt.
-
-Overfull \hbox (21.2269pt too wide) in paragraph at lines 38--39
- [][] 
- []
-
-<chapters/chapter03/fig01/mutantrhd6.jpeg, id=150, 894.34125pt x 240.9pt>
-File: chapters/chapter03/fig01/mutantrhd6.jpeg Graphic file (type jpg)
-
-<use chapters/chapter03/fig01/mutantrhd6.jpeg>
-Package pdftex.def Info: chapters/chapter03/fig01/mutantrhd6.jpeg used on input
- line 43.
-(pdftex.def)             Requested size: 342.69168pt x 92.30975pt.
-
-Overfull \hbox (58.16412pt too wide) in paragraph at lines 43--44
- [][] 
- []
-
-<chapters/chapter03/fig01/auxab.jpeg, id=151, 315.42844pt x 93.34875pt>
-File: chapters/chapter03/fig01/auxab.jpeg Graphic file (type jpg)
-
-<use chapters/chapter03/fig01/auxab.jpeg>
-Package pdftex.def Info: chapters/chapter03/fig01/auxab.jpeg used on input line
- 48.
-(pdftex.def)             Requested size: 344.20003pt x 101.85837pt.
-
-Overfull \hbox (59.67247pt too wide) in paragraph at lines 48--49
- [][] 
- []
-
-
-Package natbib Warning: Citation `rigas01' on page 5 undefined on input line 50
-.
-
-
-Package natbib Warning: Citation `massuci01' on page 5 undefined on input line 
-50.
-
-LaTeX Font Info:    Font shape `T1/fnc/m/it' will be
-(Font)              scaled to size 10.18341pt on input line 50.
-
-Package natbib Warning: Citation `griersonRH' on page 5 undefined on input line
- 50.
-
-
-Package natbib Warning: Citation `mjones01' on page 5 undefined on input line 5
-0.
-
-
-Package natbib Warning: Citation `payne01' on page 5 undefined on input line 50
-.
-
-
-Package natbib Warning: Citation `rigas01' on page 5 undefined on input line 50
-.
-
-
-Package natbib Warning: Citation `massuci01' on page 5 undefined on input line 
-50.
-
-
-Package natbib Warning: Citation `griersonRH' on page 5 undefined on input line
- 50.
-
-
-Package natbib Warning: Citation `mjones01' on page 5 undefined on input line 5
-0.
-
-
-Package natbib Warning: Citation `payne01' on page 5 undefined on input line 50
-.
-
-<chapters/chapter03/fig01/devepzones.jpeg, id=152, 317.68687pt x 481.8pt>
-File: chapters/chapter03/fig01/devepzones.jpeg Graphic file (type jpg)
-
-<use chapters/chapter03/fig01/devepzones.jpeg>
-Package pdftex.def Info: chapters/chapter03/fig01/devepzones.jpeg used on input
- line 57.
-(pdftex.def)             Requested size: 146.91817pt x 222.81398pt.
-
-
-Package natbib Warning: Citation `griersonRH' on page 5 undefined on input line
- 58.
-
-
-Package natbib Warning: Citation `griersonRH' on page 5 undefined on input line
- 58.
-
+(Font)              scaled to size 11.15991pt on input line 20.
 ) [5
 
-]
 
-LaTeX Warning: Text page 6 contains only floats.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 9.29993pt on input line 372.
-LaTeX Font Info:    Font shape `T1/fnc/m/sc' will be
-(Font)              scaled to size 9.29993pt on input line 372.
- [6 <./chapters/chapter03/fig01/Nswellings.jpeg> <./chapters/chapter03/fig01/Ms
-wellings.jpeg> <./chapters/chapter03/fig01/rhd1.jpeg> <./chapters/chapter03/fig
-01/mutantrhd6.jpeg> <./chapters/chapter03/fig01/auxab.jpeg>] [7 <./chapters/cha
-pter03/fig01/devepzones.jpeg>] [8
+] [6
 
 ] (./chapters/chapter04/chap04.tex
 
@@ -2795,929 +2647,2118 @@ Overfull \hbox (14.36299pt too wide) in paragraph at lines 22--46
  [][] 
  []
 
-<chapters/chapter04/BEATS2.pdf, id=178, 566.94911pt x 773.97157pt>
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+<chapters/chapter04/01_BEATS2.pdf, id=230, 566.94911pt x 773.97157pt>
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf used on input line 49.
+<use chapters/chapter04/01_BEATS2.pdf>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf used on input line 49
+.
 (pdftex.def)             Requested size: 566.94772pt x 773.96968pt.
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
- <use chapters/chapter04/BEATS2.pdf>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf used on input line 49.
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
+ <use chapters/chapter04/01_BEATS2.pdf>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf used on input line 49
+.
 (pdftex.def)             Requested size: 566.94772pt x 773.96968pt.
 
-[9
+[7
 
-] <chapters/chapter04/BEATS2.pdf, id=185, page=1, 566.94911pt x 773.97157pt>
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+]
+<chapters/chapter04/01_BEATS2.pdf, id=237, page=1, 566.94911pt x 773.97157pt>
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 1>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page1 used on input lin
-e 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 1>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page1 used on input 
+line 49.
 (pdftex.def)             Requested size: 566.94772pt x 773.96968pt.
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 1>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page1 used on input lin
-e 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 1>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page1 used on input 
+line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 1>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page1 used on input lin
-e 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 1>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page1 used on input 
+line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 1>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page1 used on input lin
-e 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 1>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page1 used on input 
+line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 1>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page1 used on input lin
-e 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 1>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page1 used on input 
+line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
- [10 <./chapters/chapter04/BEATS2.pdf>] <chapters/chapter04/BEATS2.pdf, id=235,
- page=2, 566.94911pt x 773.97157pt>
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+ [8 <./chapters/chapter04/01_BEATS2.pdf>]
+<chapters/chapter04/01_BEATS2.pdf, id=287, page=2, 566.94911pt x 773.97157pt>
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 2>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page2 used on input lin
-e 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 2>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page2 used on input 
+line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 2>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page2 used on input lin
-e 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 2>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page2 used on input 
+line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 2>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page2 used on input lin
-e 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 2>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page2 used on input 
+line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
- [11 <./chapters/chapter04/BEATS2.pdf>] <chapters/chapter04/BEATS2.pdf, id=249,
- page=3, 566.94911pt x 773.97157pt>
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+ [9 <./chapters/chapter04/01_BEATS2.pdf>]
+<chapters/chapter04/01_BEATS2.pdf, id=301, page=3, 566.94911pt x 773.97157pt>
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 3>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page3 used on input lin
-e 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 3>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page3 used on input 
+line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 3>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page3 used on input lin
-e 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 3>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page3 used on input 
+line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 3>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page3 used on input lin
-e 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 3>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page3 used on input 
+line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
- [12 <./chapters/chapter04/BEATS2.pdf>] <chapters/chapter04/BEATS2.pdf, id=262,
- page=4, 566.94911pt x 773.97157pt>
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+ [10 <./chapters/chapter04/01_BEATS2.pdf>]
+<chapters/chapter04/01_BEATS2.pdf, id=314, page=4, 566.94911pt x 773.97157pt>
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 4>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page4 used on input lin
-e 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 4>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page4 used on input 
+line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 4>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page4 used on input lin
-e 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 4>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page4 used on input 
+line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 4>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page4 used on input lin
-e 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 4>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page4 used on input 
+line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
- [13 <./chapters/chapter04/BEATS2.pdf>] <chapters/chapter04/BEATS2.pdf, id=267,
- page=5, 566.94911pt x 773.97157pt>
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+ [11 <./chapters/chapter04/01_BEATS2.pdf>]
+<chapters/chapter04/01_BEATS2.pdf, id=320, page=5, 566.94911pt x 773.97157pt>
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 5>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page5 used on input lin
-e 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 5>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page5 used on input 
+line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 5>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page5 used on input lin
-e 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 5>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page5 used on input 
+line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 5>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page5 used on input lin
-e 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 5>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page5 used on input 
+line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
- [14 <./chapters/chapter04/BEATS2.pdf>] <chapters/chapter04/BEATS2.pdf, id=279,
- page=6, 566.94911pt x 773.97157pt>
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+ [12 <./chapters/chapter04/01_BEATS2.pdf>]
+<chapters/chapter04/01_BEATS2.pdf, id=332, page=6, 566.94911pt x 773.97157pt>
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 6>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page6 used on input lin
-e 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 6>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page6 used on input 
+line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 6>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page6 used on input lin
-e 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 6>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page6 used on input 
+line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 6>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page6 used on input lin
-e 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 6>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page6 used on input 
+line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
- [15 <./chapters/chapter04/BEATS2.pdf>] <chapters/chapter04/BEATS2.pdf, id=286,
- page=7, 566.94911pt x 773.97157pt>
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+ [13 <./chapters/chapter04/01_BEATS2.pdf>]
+<chapters/chapter04/01_BEATS2.pdf, id=339, page=7, 566.94911pt x 773.97157pt>
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 7>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page7 used on input lin
-e 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 7>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page7 used on input 
+line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 7>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page7 used on input lin
-e 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 7>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page7 used on input 
+line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 7>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page7 used on input lin
-e 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 7>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page7 used on input 
+line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
- [16 <./chapters/chapter04/BEATS2.pdf>] <chapters/chapter04/BEATS2.pdf, id=291,
- page=8, 566.94911pt x 773.97157pt>
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+ [14 <./chapters/chapter04/01_BEATS2.pdf>]
+<chapters/chapter04/01_BEATS2.pdf, id=344, page=8, 566.94911pt x 773.97157pt>
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 8>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page8 used on input lin
-e 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 8>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page8 used on input 
+line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 8>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page8 used on input lin
-e 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 8>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page8 used on input 
+line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 8>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page8 used on input lin
-e 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 8>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page8 used on input 
+line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
- [17 <./chapters/chapter04/BEATS2.pdf>] <chapters/chapter04/BEATS2.pdf, id=302,
- page=9, 566.94911pt x 773.97157pt>
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+ [15 <./chapters/chapter04/01_BEATS2.pdf>]
+<chapters/chapter04/01_BEATS2.pdf, id=354, page=9, 566.94911pt x 773.97157pt>
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 9>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page9 used on input lin
-e 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 9>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page9 used on input 
+line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 9>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page9 used on input lin
-e 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 9>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page9 used on input 
+line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 9>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page9 used on input lin
-e 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 9>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page9 used on input 
+line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
- [18 <./chapters/chapter04/BEATS2.pdf>]
-<chapters/chapter04/BEATS2.pdf, id=310, page=10, 566.94911pt x 773.97157pt>
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+ [16 <./chapters/chapter04/01_BEATS2.pdf>]
+<chapters/chapter04/01_BEATS2.pdf, id=362, page=10, 566.94911pt x 773.97157pt>
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 10>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page10 used on input li
-ne 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 10>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page10 used on input
+ line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 10>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page10 used on input li
-ne 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 10>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page10 used on input
+ line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 10>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page10 used on input li
-ne 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 10>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page10 used on input
+ line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
- [19 <./chapters/chapter04/BEATS2.pdf>]
-<chapters/chapter04/BEATS2.pdf, id=320, page=11, 566.94911pt x 773.97157pt>
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+ [17 <./chapters/chapter04/01_BEATS2.pdf>]
+<chapters/chapter04/01_BEATS2.pdf, id=372, page=11, 566.94911pt x 773.97157pt>
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 11>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page11 used on input li
-ne 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 11>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page11 used on input
+ line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 11>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page11 used on input li
-ne 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 11>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page11 used on input
+ line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 11>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page11 used on input li
-ne 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 11>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page11 used on input
+ line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
- [20 <./chapters/chapter04/BEATS2.pdf>]
-<chapters/chapter04/BEATS2.pdf, id=327, page=12, 566.94911pt x 773.97157pt>
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+ [18 <./chapters/chapter04/01_BEATS2.pdf>]
+<chapters/chapter04/01_BEATS2.pdf, id=379, page=12, 566.94911pt x 773.97157pt>
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 12>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page12 used on input li
-ne 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 12>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page12 used on input
+ line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 12>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page12 used on input li
-ne 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 12>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page12 used on input
+ line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 12>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page12 used on input li
-ne 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 12>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page12 used on input
+ line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
- [21 <./chapters/chapter04/BEATS2.pdf>]
-<chapters/chapter04/BEATS2.pdf, id=335, page=13, 566.94911pt x 773.97157pt>
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+ [19 <./chapters/chapter04/01_BEATS2.pdf>]
+<chapters/chapter04/01_BEATS2.pdf, id=387, page=13, 566.94911pt x 773.97157pt>
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 13>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page13 used on input li
-ne 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 13>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page13 used on input
+ line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 13>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page13 used on input li
-ne 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 13>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page13 used on input
+ line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 13>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page13 used on input li
-ne 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 13>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page13 used on input
+ line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
- [22 <./chapters/chapter04/BEATS2.pdf>]
-<chapters/chapter04/BEATS2.pdf, id=343, page=14, 566.94911pt x 773.97157pt>
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+ [20 <./chapters/chapter04/01_BEATS2.pdf>]
+<chapters/chapter04/01_BEATS2.pdf, id=395, page=14, 566.94911pt x 773.97157pt>
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 14>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page14 used on input li
-ne 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 14>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page14 used on input
+ line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 14>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page14 used on input li
-ne 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 14>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page14 used on input
+ line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
-File: chapters/chapter04/BEATS2.pdf Graphic file (type pdf)
+File: chapters/chapter04/01_BEATS2.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/BEATS2.pdf, page 14>
-Package pdftex.def Info: chapters/chapter04/BEATS2.pdf, page14 used on input li
-ne 49.
+<use chapters/chapter04/01_BEATS2.pdf, page 14>
+Package pdftex.def Info: chapters/chapter04/01_BEATS2.pdf, page14 used on input
+ line 49.
 (pdftex.def)             Requested size: 510.24948pt x 696.56798pt.
- [23 <./chapters/chapter04/BEATS2.pdf>]
-
-Package nag Warning: table with no \caption on input line 90.
-
-
-Overfull \hbox (386.074pt too wide) in paragraph at lines 60--90
- [][] 
+ [21 <./chapters/chapter04/01_BEATS2.pdf>]
+Overfull \hbox (22.54071pt too wide) in paragraph at lines 59--82
+[] 
  []
 
-<chapters/chapter04/Applicability.pdf, id=355, 597.50829pt x 845.0471pt>
-File: chapters/chapter04/Applicability.pdf Graphic file (type pdf)
+<chapters/chapter04/02_FS-Energy.pdf, id=406, 597.50829pt x 845.0471pt>
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/Applicability.pdf>
-Package pdftex.def Info: chapters/chapter04/Applicability.pdf used on input lin
-e 93.
+<use chapters/chapter04/02_FS-Energy.pdf>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf used on input line
+ 84.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: chapters/chapter04/Applicability.pdf Graphic file (type pdf)
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/Applicability.pdf>
-Package pdftex.def Info: chapters/chapter04/Applicability.pdf used on input lin
-e 93.
+<use chapters/chapter04/02_FS-Energy.pdf>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf used on input line
+ 84.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
- [24]
-<chapters/chapter04/Applicability.pdf, id=362, page=1, 597.50829pt x 845.0471pt
->
-File: chapters/chapter04/Applicability.pdf Graphic file (type pdf)
- <use chapters/chapter04/Applicability.pdf, page 1>
-Package pdftex.def Info: chapters/chapter04/Applicability.pdf, page1 used on in
-put line 93.
+ [22]
+<chapters/chapter04/02_FS-Energy.pdf, id=413, page=1, 597.50829pt x 845.0471pt>
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
+<use chapters/chapter04/02_FS-Energy.pdf, page 1>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page1 used on inp
+ut line 84.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: chapters/chapter04/Applicability.pdf Graphic file (type pdf)
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/Applicability.pdf, page 1>
-Package pdftex.def Info: chapters/chapter04/Applicability.pdf, page1 used on in
-put line 93.
+<use chapters/chapter04/02_FS-Energy.pdf, page 1>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page1 used on inp
+ut line 84.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
-File: chapters/chapter04/Applicability.pdf Graphic file (type pdf)
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/Applicability.pdf, page 1>
-Package pdftex.def Info: chapters/chapter04/Applicability.pdf, page1 used on in
-put line 93.
+<use chapters/chapter04/02_FS-Energy.pdf, page 1>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page1 used on inp
+ut line 84.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
-File: chapters/chapter04/Applicability.pdf Graphic file (type pdf)
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/Applicability.pdf, page 1>
-Package pdftex.def Info: chapters/chapter04/Applicability.pdf, page1 used on in
-put line 93.
+<use chapters/chapter04/02_FS-Energy.pdf, page 1>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page1 used on inp
+ut line 84.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
-File: chapters/chapter04/Applicability.pdf Graphic file (type pdf)
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/Applicability.pdf, page 1>
-Package pdftex.def Info: chapters/chapter04/Applicability.pdf, page1 used on in
-put line 93.
+<use chapters/chapter04/02_FS-Energy.pdf, page 1>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page1 used on inp
+ut line 84.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
- [25 <./chapters/chapter04/Applicability.pdf>]
-<chapters/chapter04/Applicability.pdf, id=391, page=2, 597.50829pt x 845.0471pt
+ [23 <./chapters/chapter04/02_FS-Energy.pdf>]
+<chapters/chapter04/02_FS-Energy.pdf, id=443, page=2, 597.50829pt x 845.0471pt>
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
+<use chapters/chapter04/02_FS-Energy.pdf, page 2>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page2 used on inp
+ut line 84.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/02_FS-Energy.pdf, page 2>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page2 used on inp
+ut line 84.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/02_FS-Energy.pdf, page 2>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page2 used on inp
+ut line 84.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [24 <./chapters/chapter04/02_FS-Energy.pdf>]
+<chapters/chapter04/02_FS-Energy.pdf, id=527, page=3, 597.50829pt x 845.0471pt>
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
+<use chapters/chapter04/02_FS-Energy.pdf, page 3>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page3 used on inp
+ut line 84.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/02_FS-Energy.pdf, page 3>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page3 used on inp
+ut line 84.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/02_FS-Energy.pdf, page 3>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page3 used on inp
+ut line 84.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [25 <./chapters/chapter04/02_FS-Energy.pdf>]
+<chapters/chapter04/02_FS-Energy.pdf, id=592, page=4, 597.50829pt x 845.0471pt>
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
+<use chapters/chapter04/02_FS-Energy.pdf, page 4>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page4 used on inp
+ut line 84.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/02_FS-Energy.pdf, page 4>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page4 used on inp
+ut line 84.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/02_FS-Energy.pdf, page 4>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page4 used on inp
+ut line 84.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [26 <./chapters/chapter04/02_FS-Energy.pdf>]
+<chapters/chapter04/02_FS-Energy.pdf, id=602, page=5, 597.50829pt x 845.0471pt>
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
+<use chapters/chapter04/02_FS-Energy.pdf, page 5>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page5 used on inp
+ut line 84.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/02_FS-Energy.pdf, page 5>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page5 used on inp
+ut line 84.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/02_FS-Energy.pdf, page 5>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page5 used on inp
+ut line 84.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [27 <./chapters/chapter04/02_FS-Energy.pdf>]
+<chapters/chapter04/02_FS-Energy.pdf, id=643, page=6, 597.50829pt x 845.0471pt>
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
+<use chapters/chapter04/02_FS-Energy.pdf, page 6>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page6 used on inp
+ut line 84.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/02_FS-Energy.pdf, page 6>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page6 used on inp
+ut line 84.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/02_FS-Energy.pdf, page 6>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page6 used on inp
+ut line 84.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [28 <./chapters/chapter04/02_FS-Energy.pdf>]
+<chapters/chapter04/02_FS-Energy.pdf, id=648, page=7, 597.50829pt x 845.0471pt>
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
+<use chapters/chapter04/02_FS-Energy.pdf, page 7>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page7 used on inp
+ut line 84.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/02_FS-Energy.pdf, page 7>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page7 used on inp
+ut line 84.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/02_FS-Energy.pdf, page 7>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page7 used on inp
+ut line 84.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [29 <./chapters/chapter04/02_FS-Energy.pdf>]
+<chapters/chapter04/02_FS-Energy.pdf, id=654, page=8, 597.50829pt x 845.0471pt>
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
+<use chapters/chapter04/02_FS-Energy.pdf, page 8>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page8 used on inp
+ut line 84.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/02_FS-Energy.pdf, page 8>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page8 used on inp
+ut line 84.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/02_FS-Energy.pdf, page 8>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page8 used on inp
+ut line 84.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [30 <./chapters/chapter04/02_FS-Energy.pdf>]
+<chapters/chapter04/02_FS-Energy.pdf, id=659, page=9, 597.50829pt x 845.0471pt>
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
+<use chapters/chapter04/02_FS-Energy.pdf, page 9>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page9 used on inp
+ut line 84.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/02_FS-Energy.pdf, page 9>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page9 used on inp
+ut line 84.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/02_FS-Energy.pdf, page 9>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page9 used on inp
+ut line 84.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [31 <./chapters/chapter04/02_FS-Energy.pdf>]
+<chapters/chapter04/02_FS-Energy.pdf, id=664, page=10, 597.50829pt x 845.0471pt
 >
-File: chapters/chapter04/Applicability.pdf Graphic file (type pdf)
- <use chapters/chapter04/Applicability.pdf, page 2>
-Package pdftex.def Info: chapters/chapter04/Applicability.pdf, page2 used on in
-put line 93.
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
+ <use chapters/chapter04/02_FS-Energy.pdf, page 10>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page10 used on in
+put line 84.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
-File: chapters/chapter04/Applicability.pdf Graphic file (type pdf)
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/Applicability.pdf, page 2>
-Package pdftex.def Info: chapters/chapter04/Applicability.pdf, page2 used on in
-put line 93.
+<use chapters/chapter04/02_FS-Energy.pdf, page 10>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page10 used on in
+put line 84.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
-File: chapters/chapter04/Applicability.pdf Graphic file (type pdf)
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/Applicability.pdf, page 2>
-Package pdftex.def Info: chapters/chapter04/Applicability.pdf, page2 used on in
-put line 93.
+<use chapters/chapter04/02_FS-Energy.pdf, page 10>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page10 used on in
+put line 84.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
- [26 <./chapters/chapter04/Applicability.pdf>]
-<chapters/chapter04/Applicability.pdf, id=431, page=3, 597.50829pt x 845.0471pt
+ [32 <./chapters/chapter04/02_FS-Energy.pdf>]
+<chapters/chapter04/02_FS-Energy.pdf, id=672, page=11, 597.50829pt x 845.0471pt
 >
-File: chapters/chapter04/Applicability.pdf Graphic file (type pdf)
- <use chapters/chapter04/Applicability.pdf, page 3>
-Package pdftex.def Info: chapters/chapter04/Applicability.pdf, page3 used on in
-put line 93.
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
+ <use chapters/chapter04/02_FS-Energy.pdf, page 11>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page11 used on in
+put line 84.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
-File: chapters/chapter04/Applicability.pdf Graphic file (type pdf)
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/Applicability.pdf, page 3>
-Package pdftex.def Info: chapters/chapter04/Applicability.pdf, page3 used on in
-put line 93.
+<use chapters/chapter04/02_FS-Energy.pdf, page 11>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page11 used on in
+put line 84.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
-File: chapters/chapter04/Applicability.pdf Graphic file (type pdf)
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/Applicability.pdf, page 3>
-Package pdftex.def Info: chapters/chapter04/Applicability.pdf, page3 used on in
-put line 93.
+<use chapters/chapter04/02_FS-Energy.pdf, page 11>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page11 used on in
+put line 84.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
- [27 <./chapters/chapter04/Applicability.pdf>]
-<chapters/chapter04/Applicability.pdf, id=472, page=4, 597.50829pt x 845.0471pt
+ [33 <./chapters/chapter04/02_FS-Energy.pdf>]
+<chapters/chapter04/02_FS-Energy.pdf, id=687, page=12, 597.50829pt x 845.0471pt
 >
-File: chapters/chapter04/Applicability.pdf Graphic file (type pdf)
- <use chapters/chapter04/Applicability.pdf, page 4>
-Package pdftex.def Info: chapters/chapter04/Applicability.pdf, page4 used on in
-put line 93.
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
+ <use chapters/chapter04/02_FS-Energy.pdf, page 12>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page12 used on in
+put line 84.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
-File: chapters/chapter04/Applicability.pdf Graphic file (type pdf)
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/Applicability.pdf, page 4>
-Package pdftex.def Info: chapters/chapter04/Applicability.pdf, page4 used on in
-put line 93.
+<use chapters/chapter04/02_FS-Energy.pdf, page 12>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page12 used on in
+put line 84.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
-File: chapters/chapter04/Applicability.pdf Graphic file (type pdf)
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/Applicability.pdf, page 4>
-Package pdftex.def Info: chapters/chapter04/Applicability.pdf, page4 used on in
-put line 93.
+<use chapters/chapter04/02_FS-Energy.pdf, page 12>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page12 used on in
+put line 84.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
- [28 <./chapters/chapter04/Applicability.pdf>]
-<chapters/chapter04/Applicability.pdf, id=498, page=5, 597.50829pt x 845.0471pt
+ [34 <./chapters/chapter04/02_FS-Energy.pdf>]
+<chapters/chapter04/02_FS-Energy.pdf, id=695, page=13, 597.50829pt x 845.0471pt
 >
-File: chapters/chapter04/Applicability.pdf Graphic file (type pdf)
- <use chapters/chapter04/Applicability.pdf, page 5>
-Package pdftex.def Info: chapters/chapter04/Applicability.pdf, page5 used on in
-put line 93.
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
+ <use chapters/chapter04/02_FS-Energy.pdf, page 13>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page13 used on in
+put line 84.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
-File: chapters/chapter04/Applicability.pdf Graphic file (type pdf)
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/Applicability.pdf, page 5>
-Package pdftex.def Info: chapters/chapter04/Applicability.pdf, page5 used on in
-put line 93.
+<use chapters/chapter04/02_FS-Energy.pdf, page 13>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page13 used on in
+put line 84.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
-File: chapters/chapter04/Applicability.pdf Graphic file (type pdf)
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/Applicability.pdf, page 5>
-Package pdftex.def Info: chapters/chapter04/Applicability.pdf, page5 used on in
-put line 93.
+<use chapters/chapter04/02_FS-Energy.pdf, page 13>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page13 used on in
+put line 84.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
- [29 <./chapters/chapter04/Applicability.pdf>]
-<chapters/chapter04/Applicability.pdf, id=560, page=6, 597.50829pt x 845.0471pt
+ [35 <./chapters/chapter04/02_FS-Energy.pdf>]
+<chapters/chapter04/02_FS-Energy.pdf, id=701, page=14, 597.50829pt x 845.0471pt
 >
-File: chapters/chapter04/Applicability.pdf Graphic file (type pdf)
- <use chapters/chapter04/Applicability.pdf, page 6>
-Package pdftex.def Info: chapters/chapter04/Applicability.pdf, page6 used on in
-put line 93.
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
+ <use chapters/chapter04/02_FS-Energy.pdf, page 14>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page14 used on in
+put line 84.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
-File: chapters/chapter04/Applicability.pdf Graphic file (type pdf)
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/Applicability.pdf, page 6>
-Package pdftex.def Info: chapters/chapter04/Applicability.pdf, page6 used on in
-put line 93.
+<use chapters/chapter04/02_FS-Energy.pdf, page 14>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page14 used on in
+put line 84.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
-File: chapters/chapter04/Applicability.pdf Graphic file (type pdf)
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/Applicability.pdf, page 6>
-Package pdftex.def Info: chapters/chapter04/Applicability.pdf, page6 used on in
-put line 93.
+<use chapters/chapter04/02_FS-Energy.pdf, page 14>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page14 used on in
+put line 84.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
- [30 <./chapters/chapter04/Applicability.pdf>]
-<chapters/chapter04/Applicability.pdf, id=565, page=7, 597.50829pt x 845.0471pt
+ [36 <./chapters/chapter04/02_FS-Energy.pdf>]
+<chapters/chapter04/02_FS-Energy.pdf, id=706, page=15, 597.50829pt x 845.0471pt
 >
-File: chapters/chapter04/Applicability.pdf Graphic file (type pdf)
- <use chapters/chapter04/Applicability.pdf, page 7>
-Package pdftex.def Info: chapters/chapter04/Applicability.pdf, page7 used on in
-put line 93.
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
+ <use chapters/chapter04/02_FS-Energy.pdf, page 15>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page15 used on in
+put line 84.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
-File: chapters/chapter04/Applicability.pdf Graphic file (type pdf)
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/Applicability.pdf, page 7>
-Package pdftex.def Info: chapters/chapter04/Applicability.pdf, page7 used on in
-put line 93.
+<use chapters/chapter04/02_FS-Energy.pdf, page 15>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page15 used on in
+put line 84.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
-File: chapters/chapter04/Applicability.pdf Graphic file (type pdf)
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/Applicability.pdf, page 7>
-Package pdftex.def Info: chapters/chapter04/Applicability.pdf, page7 used on in
-put line 93.
+<use chapters/chapter04/02_FS-Energy.pdf, page 15>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page15 used on in
+put line 84.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
- [31 <./chapters/chapter04/Applicability.pdf>]
-<chapters/chapter04/Applicability.pdf, id=648, page=8, 597.50829pt x 845.0471pt
+ [37 <./chapters/chapter04/02_FS-Energy.pdf>]
+<chapters/chapter04/02_FS-Energy.pdf, id=711, page=16, 597.50829pt x 845.0471pt
 >
-File: chapters/chapter04/Applicability.pdf Graphic file (type pdf)
- <use chapters/chapter04/Applicability.pdf, page 8>
-Package pdftex.def Info: chapters/chapter04/Applicability.pdf, page8 used on in
-put line 93.
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
+ <use chapters/chapter04/02_FS-Energy.pdf, page 16>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page16 used on in
+put line 84.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
-File: chapters/chapter04/Applicability.pdf Graphic file (type pdf)
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/Applicability.pdf, page 8>
-Package pdftex.def Info: chapters/chapter04/Applicability.pdf, page8 used on in
-put line 93.
+<use chapters/chapter04/02_FS-Energy.pdf, page 16>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page16 used on in
+put line 84.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
-File: chapters/chapter04/Applicability.pdf Graphic file (type pdf)
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/Applicability.pdf, page 8>
-Package pdftex.def Info: chapters/chapter04/Applicability.pdf, page8 used on in
-put line 93.
+<use chapters/chapter04/02_FS-Energy.pdf, page 16>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page16 used on in
+put line 84.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
- [32 <./chapters/chapter04/Applicability.pdf>]
-<chapters/chapter04/Applicability.pdf, id=695, page=9, 597.50829pt x 845.0471pt
+ [38 <./chapters/chapter04/02_FS-Energy.pdf>]
+<chapters/chapter04/02_FS-Energy.pdf, id=752, page=17, 597.50829pt x 845.0471pt
 >
-File: chapters/chapter04/Applicability.pdf Graphic file (type pdf)
- <use chapters/chapter04/Applicability.pdf, page 9>
-Package pdftex.def Info: chapters/chapter04/Applicability.pdf, page9 used on in
-put line 93.
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
+ <use chapters/chapter04/02_FS-Energy.pdf, page 17>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page17 used on in
+put line 84.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
-File: chapters/chapter04/Applicability.pdf Graphic file (type pdf)
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/Applicability.pdf, page 9>
-Package pdftex.def Info: chapters/chapter04/Applicability.pdf, page9 used on in
-put line 93.
+<use chapters/chapter04/02_FS-Energy.pdf, page 17>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page17 used on in
+put line 84.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
-File: chapters/chapter04/Applicability.pdf Graphic file (type pdf)
+File: chapters/chapter04/02_FS-Energy.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/Applicability.pdf, page 9>
-Package pdftex.def Info: chapters/chapter04/Applicability.pdf, page9 used on in
-put line 93.
+<use chapters/chapter04/02_FS-Energy.pdf, page 17>
+Package pdftex.def Info: chapters/chapter04/02_FS-Energy.pdf, page17 used on in
+put line 84.
 (pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
- [33 <./chapters/chapter04/Applicability.pdf>]
-<chapters/chapter04/Applicability.pdf, id=700, page=10, 597.50829pt x 845.0471p
+ [39 <./chapters/chapter04/02_FS-Energy.pdf>]
+<chapters/chapter04/03_CASITA.pdf, id=757, 597.50829pt x 845.0471pt>
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf used on input line 12
+3.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+ <use chapters/chapter04/03_CASITA.pdf>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf used on input line 12
+3.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+
+[40]
+<chapters/chapter04/03_CASITA.pdf, id=764, page=1, 597.50829pt x 845.0471pt>
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 1>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page1 used on input 
+line 123.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 1>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page1 used on input 
+line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 1>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page1 used on input 
+line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 1>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page1 used on input 
+line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 1>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page1 used on input 
+line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [41 <./chapters/chapter04/03_CASITA.pdf>]
+<chapters/chapter04/03_CASITA.pdf, id=834, page=2, 597.50829pt x 845.0471pt>
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 2>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page2 used on input 
+line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 2>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page2 used on input 
+line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 2>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page2 used on input 
+line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [42 <./chapters/chapter04/03_CASITA.pdf>]
+<chapters/chapter04/03_CASITA.pdf, id=839, page=3, 597.50829pt x 845.0471pt>
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 3>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page3 used on input 
+line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 3>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page3 used on input 
+line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 3>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page3 used on input 
+line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [43 <./chapters/chapter04/03_CASITA.pdf>]
+<chapters/chapter04/03_CASITA.pdf, id=871, page=4, 597.50829pt x 845.0471pt>
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 4>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page4 used on input 
+line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 4>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page4 used on input 
+line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 4>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page4 used on input 
+line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [44 <./chapters/chapter04/03_CASITA.pdf>]
+<chapters/chapter04/03_CASITA.pdf, id=897, page=5, 597.50829pt x 845.0471pt>
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 5>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page5 used on input 
+line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 5>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page5 used on input 
+line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 5>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page5 used on input 
+line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [45 <./chapters/chapter04/03_CASITA.pdf>]
+<chapters/chapter04/03_CASITA.pdf, id=923, page=6, 597.50829pt x 845.0471pt>
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 6>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page6 used on input 
+line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 6>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page6 used on input 
+line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 6>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page6 used on input 
+line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [46 <./chapters/chapter04/03_CASITA.pdf>]
+<chapters/chapter04/03_CASITA.pdf, id=936, page=7, 597.50829pt x 845.0471pt>
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 7>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page7 used on input 
+line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 7>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page7 used on input 
+line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 7>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page7 used on input 
+line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [47 <./chapters/chapter04/03_CASITA.pdf>]
+<chapters/chapter04/03_CASITA.pdf, id=967, page=8, 597.50829pt x 845.0471pt>
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 8>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page8 used on input 
+line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 8>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page8 used on input 
+line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 8>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page8 used on input 
+line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [48 <./chapters/chapter04/03_CASITA.pdf>]
+<chapters/chapter04/03_CASITA.pdf, id=993, page=9, 597.50829pt x 845.0471pt>
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 9>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page9 used on input 
+line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 9>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page9 used on input 
+line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 9>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page9 used on input 
+line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [49 <./chapters/chapter04/03_CASITA.pdf>]
+<chapters/chapter04/03_CASITA.pdf, id=1040, page=10, 597.50829pt x 845.0471pt>
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 10>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page10 used on input
+ line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 10>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page10 used on input
+ line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 10>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page10 used on input
+ line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [50 <./chapters/chapter04/03_CASITA.pdf>]
+<chapters/chapter04/03_CASITA.pdf, id=1045, page=11, 597.50829pt x 845.0471pt>
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 11>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page11 used on input
+ line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 11>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page11 used on input
+ line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 11>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page11 used on input
+ line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [51 <./chapters/chapter04/03_CASITA.pdf>]
+<chapters/chapter04/03_CASITA.pdf, id=1096, page=12, 597.50829pt x 845.0471pt>
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 12>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page12 used on input
+ line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 12>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page12 used on input
+ line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 12>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page12 used on input
+ line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [52 <./chapters/chapter04/03_CASITA.pdf>]
+<chapters/chapter04/03_CASITA.pdf, id=1151, page=13, 597.50829pt x 845.0471pt>
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 13>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page13 used on input
+ line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 13>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page13 used on input
+ line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 13>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page13 used on input
+ line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [53 <./chapters/chapter04/03_CASITA.pdf>]
+<chapters/chapter04/03_CASITA.pdf, id=1186, page=14, 597.50829pt x 845.0471pt>
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 14>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page14 used on input
+ line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 14>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page14 used on input
+ line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 14>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page14 used on input
+ line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [54 <./chapters/chapter04/03_CASITA.pdf>]
+<chapters/chapter04/03_CASITA.pdf, id=1191, page=15, 597.50829pt x 845.0471pt>
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 15>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page15 used on input
+ line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 15>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page15 used on input
+ line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 15>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page15 used on input
+ line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [55 <./chapters/chapter04/03_CASITA.pdf>]
+<chapters/chapter04/03_CASITA.pdf, id=1196, page=16, 597.50829pt x 845.0471pt>
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 16>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page16 used on input
+ line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 16>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page16 used on input
+ line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/03_CASITA.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/03_CASITA.pdf, page 16>
+Package pdftex.def Info: chapters/chapter04/03_CASITA.pdf, page16 used on input
+ line 123.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [56 <./chapters/chapter04/03_CASITA.pdf>]
+Overfull \hbox (4.42459pt too wide) in paragraph at lines 132--163
+[] 
+ []
+
+<chapters/chapter04/04_Applicability.pdf, id=1206, 597.50829pt x 845.0471pt>
+File: chapters/chapter04/04_Applicability.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/04_Applicability.pdf>
+Package pdftex.def Info: chapters/chapter04/04_Applicability.pdf used on input 
+line 165.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: chapters/chapter04/04_Applicability.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/04_Applicability.pdf>
+Package pdftex.def Info: chapters/chapter04/04_Applicability.pdf used on input 
+line 165.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+ [57]
+<chapters/chapter04/04_Applicability.pdf, id=1213, page=1, 597.50829pt x 845.04
+71pt>
+File: chapters/chapter04/04_Applicability.pdf Graphic file (type pdf)
+ <use chapters/chapter04/04_Applicability.pdf, page 1>
+Package pdftex.def Info: chapters/chapter04/04_Applicability.pdf, page1 used on
+ input line 165.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: chapters/chapter04/04_Applicability.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/04_Applicability.pdf, page 1>
+Package pdftex.def Info: chapters/chapter04/04_Applicability.pdf, page1 used on
+ input line 165.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/04_Applicability.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/04_Applicability.pdf, page 1>
+Package pdftex.def Info: chapters/chapter04/04_Applicability.pdf, page1 used on
+ input line 165.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/04_Applicability.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/04_Applicability.pdf, page 1>
+Package pdftex.def Info: chapters/chapter04/04_Applicability.pdf, page1 used on
+ input line 165.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/04_Applicability.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/04_Applicability.pdf, page 1>
+Package pdftex.def Info: chapters/chapter04/04_Applicability.pdf, page1 used on
+ input line 165.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [58 <./chapters/chapter04/04_Applicability.pdf>]
+<chapters/chapter04/04_Applicability.pdf, id=1236, page=2, 597.50829pt x 845.04
+71pt>
+File: chapters/chapter04/04_Applicability.pdf Graphic file (type pdf)
+ <use chapters/chapter04/04_Applicability.pdf, page 2>
+Package pdftex.def Info: chapters/chapter04/04_Applicability.pdf, page2 used on
+ input line 165.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/04_Applicability.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/04_Applicability.pdf, page 2>
+Package pdftex.def Info: chapters/chapter04/04_Applicability.pdf, page2 used on
+ input line 165.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/04_Applicability.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/04_Applicability.pdf, page 2>
+Package pdftex.def Info: chapters/chapter04/04_Applicability.pdf, page2 used on
+ input line 165.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [59 <./chapters/chapter04/04_Applicability.pdf>]
+<chapters/chapter04/04_Applicability.pdf, id=1275, page=3, 597.50829pt x 845.04
+71pt>
+File: chapters/chapter04/04_Applicability.pdf Graphic file (type pdf)
+ <use chapters/chapter04/04_Applicability.pdf, page 3>
+Package pdftex.def Info: chapters/chapter04/04_Applicability.pdf, page3 used on
+ input line 165.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/04_Applicability.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/04_Applicability.pdf, page 3>
+Package pdftex.def Info: chapters/chapter04/04_Applicability.pdf, page3 used on
+ input line 165.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/04_Applicability.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/04_Applicability.pdf, page 3>
+Package pdftex.def Info: chapters/chapter04/04_Applicability.pdf, page3 used on
+ input line 165.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [60 <./chapters/chapter04/04_Applicability.pdf>]
+<chapters/chapter04/04_Applicability.pdf, id=1316, page=4, 597.50829pt x 845.04
+71pt>
+File: chapters/chapter04/04_Applicability.pdf Graphic file (type pdf)
+ <use chapters/chapter04/04_Applicability.pdf, page 4>
+Package pdftex.def Info: chapters/chapter04/04_Applicability.pdf, page4 used on
+ input line 165.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/04_Applicability.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/04_Applicability.pdf, page 4>
+Package pdftex.def Info: chapters/chapter04/04_Applicability.pdf, page4 used on
+ input line 165.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/04_Applicability.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/04_Applicability.pdf, page 4>
+Package pdftex.def Info: chapters/chapter04/04_Applicability.pdf, page4 used on
+ input line 165.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [61 <./chapters/chapter04/04_Applicability.pdf>]
+<chapters/chapter04/04_Applicability.pdf, id=1340, page=5, 597.50829pt x 845.04
+71pt>
+File: chapters/chapter04/04_Applicability.pdf Graphic file (type pdf)
+ <use chapters/chapter04/04_Applicability.pdf, page 5>
+Package pdftex.def Info: chapters/chapter04/04_Applicability.pdf, page5 used on
+ input line 165.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/04_Applicability.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/04_Applicability.pdf, page 5>
+Package pdftex.def Info: chapters/chapter04/04_Applicability.pdf, page5 used on
+ input line 165.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/04_Applicability.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/04_Applicability.pdf, page 5>
+Package pdftex.def Info: chapters/chapter04/04_Applicability.pdf, page5 used on
+ input line 165.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [62 <./chapters/chapter04/04_Applicability.pdf>]
+<chapters/chapter04/04_Applicability.pdf, id=1401, page=6, 597.50829pt x 845.04
+71pt>
+File: chapters/chapter04/04_Applicability.pdf Graphic file (type pdf)
+ <use chapters/chapter04/04_Applicability.pdf, page 6>
+Package pdftex.def Info: chapters/chapter04/04_Applicability.pdf, page6 used on
+ input line 165.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/04_Applicability.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/04_Applicability.pdf, page 6>
+Package pdftex.def Info: chapters/chapter04/04_Applicability.pdf, page6 used on
+ input line 165.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/04_Applicability.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/04_Applicability.pdf, page 6>
+Package pdftex.def Info: chapters/chapter04/04_Applicability.pdf, page6 used on
+ input line 165.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [63 <./chapters/chapter04/04_Applicability.pdf>]
+<chapters/chapter04/04_Applicability.pdf, id=1406, page=7, 597.50829pt x 845.04
+71pt>
+File: chapters/chapter04/04_Applicability.pdf Graphic file (type pdf)
+ <use chapters/chapter04/04_Applicability.pdf, page 7>
+Package pdftex.def Info: chapters/chapter04/04_Applicability.pdf, page7 used on
+ input line 165.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/04_Applicability.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/04_Applicability.pdf, page 7>
+Package pdftex.def Info: chapters/chapter04/04_Applicability.pdf, page7 used on
+ input line 165.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/04_Applicability.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/04_Applicability.pdf, page 7>
+Package pdftex.def Info: chapters/chapter04/04_Applicability.pdf, page7 used on
+ input line 165.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [64 <./chapters/chapter04/04_Applicability.pdf>]
+<chapters/chapter04/04_Applicability.pdf, id=1489, page=8, 597.50829pt x 845.04
+71pt>
+File: chapters/chapter04/04_Applicability.pdf Graphic file (type pdf)
+ <use chapters/chapter04/04_Applicability.pdf, page 8>
+Package pdftex.def Info: chapters/chapter04/04_Applicability.pdf, page8 used on
+ input line 165.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/04_Applicability.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/04_Applicability.pdf, page 8>
+Package pdftex.def Info: chapters/chapter04/04_Applicability.pdf, page8 used on
+ input line 165.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/04_Applicability.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/04_Applicability.pdf, page 8>
+Package pdftex.def Info: chapters/chapter04/04_Applicability.pdf, page8 used on
+ input line 165.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [65 <./chapters/chapter04/04_Applicability.pdf>]
+<chapters/chapter04/04_Applicability.pdf, id=1537, page=9, 597.50829pt x 845.04
+71pt>
+File: chapters/chapter04/04_Applicability.pdf Graphic file (type pdf)
+ <use chapters/chapter04/04_Applicability.pdf, page 9>
+Package pdftex.def Info: chapters/chapter04/04_Applicability.pdf, page9 used on
+ input line 165.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/04_Applicability.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/04_Applicability.pdf, page 9>
+Package pdftex.def Info: chapters/chapter04/04_Applicability.pdf, page9 used on
+ input line 165.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/04_Applicability.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/04_Applicability.pdf, page 9>
+Package pdftex.def Info: chapters/chapter04/04_Applicability.pdf, page9 used on
+ input line 165.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [66 <./chapters/chapter04/04_Applicability.pdf>]
+<chapters/chapter04/04_Applicability.pdf, id=1542, page=10, 597.50829pt x 845.0
+471pt>
+File: chapters/chapter04/04_Applicability.pdf Graphic file (type pdf)
+ <use chapters/chapter04/04_Applicability.pdf, page 10>
+Package pdftex.def Info: chapters/chapter04/04_Applicability.pdf, page10 used o
+n input line 165.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/04_Applicability.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/04_Applicability.pdf, page 10>
+Package pdftex.def Info: chapters/chapter04/04_Applicability.pdf, page10 used o
+n input line 165.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/04_Applicability.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/04_Applicability.pdf, page 10>
+Package pdftex.def Info: chapters/chapter04/04_Applicability.pdf, page10 used o
+n input line 165.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [67 <./chapters/chapter04/04_Applicability.pdf>]
+Overfull \hbox (8.58923pt too wide) in paragraph at lines 173--198
+[] 
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./chapters/chapter04/05_AnOpenIoT.pdf): PDF incl
+usion: found PDF version <1.7>, but at most version <1.5> allowed
+<chapters/chapter04/05_AnOpenIoT.pdf, id=1565, 597.50829pt x 796.67737pt>
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/05_AnOpenIoT.pdf>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf used on input line
+ 200.
+(pdftex.def)             Requested size: 597.50682pt x 796.67543pt.
+
+
+pdfTeX warning: pdflatex (file ./chapters/chapter04/05_AnOpenIoT.pdf): PDF incl
+usion: found PDF version <1.7>, but at most version <1.5> allowed
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+<use chapters/chapter04/05_AnOpenIoT.pdf>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf used on input line
+ 200.
+(pdftex.def)             Requested size: 597.50682pt x 796.67543pt.
+
+
+pdfTeX warning: pdflatex (file ./chapters/chapter04/05_AnOpenIoT.pdf): PDF incl
+usion: found PDF version <1.7>, but at most version <1.5> allowed
+[68]
+
+pdfTeX warning: pdflatex (file ./chapters/chapter04/05_AnOpenIoT.pdf): PDF incl
+usion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<chapters/chapter04/05_AnOpenIoT.pdf, id=1572, page=1, 597.50829pt x 796.67737p
 t>
-File: chapters/chapter04/Applicability.pdf Graphic file (type pdf)
- <use chapters/chapter04/Applicability.pdf, page 10>
-Package pdftex.def Info: chapters/chapter04/Applicability.pdf, page10 used on i
-nput line 93.
-(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
-File: chapters/chapter04/Applicability.pdf Graphic file (type pdf)
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+ <use chapters/chapter04/05_AnOpenIoT.pdf, page 1>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page1 used on inp
+ut line 200.
+(pdftex.def)             Requested size: 597.50682pt x 796.67543pt.
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/Applicability.pdf, page 10>
-Package pdftex.def Info: chapters/chapter04/Applicability.pdf, page10 used on i
-nput line 93.
-(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
-File: chapters/chapter04/Applicability.pdf Graphic file (type pdf)
+<use chapters/chapter04/05_AnOpenIoT.pdf, page 1>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page1 used on inp
+ut line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
 
-<use chapters/chapter04/Applicability.pdf, page 10>
-Package pdftex.def Info: chapters/chapter04/Applicability.pdf, page10 used on i
-nput line 93.
-(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
- [34 <./chapters/chapter04/Applicability.pdf>]
+<use chapters/chapter04/05_AnOpenIoT.pdf, page 1>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page1 used on inp
+ut line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
 
-Package nag Warning: table with no \caption on input line 128.
+<use chapters/chapter04/05_AnOpenIoT.pdf, page 1>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page1 used on inp
+ut line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
 
+<use chapters/chapter04/05_AnOpenIoT.pdf, page 1>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page1 used on inp
+ut line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+ [69 <./chapters/chapter04/05_AnOpenIoT.pdf>]
 
-Overfull \hbox (148.62978pt too wide) in paragraph at lines 104--128
- [][] 
+pdfTeX warning: pdflatex (file ./chapters/chapter04/05_AnOpenIoT.pdf): PDF incl
+usion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<chapters/chapter04/05_AnOpenIoT.pdf, id=1627, page=2, 597.50829pt x 796.67737p
+t>
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+ <use chapters/chapter04/05_AnOpenIoT.pdf, page 2>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page2 used on inp
+ut line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/05_AnOpenIoT.pdf, page 2>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page2 used on inp
+ut line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/05_AnOpenIoT.pdf, page 2>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page2 used on inp
+ut line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+ [70 <./chapters/chapter04/05_AnOpenIoT.pdf>]
+
+pdfTeX warning: pdflatex (file ./chapters/chapter04/05_AnOpenIoT.pdf): PDF incl
+usion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<chapters/chapter04/05_AnOpenIoT.pdf, id=1632, page=3, 597.50829pt x 796.67737p
+t>
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+ <use chapters/chapter04/05_AnOpenIoT.pdf, page 3>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page3 used on inp
+ut line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/05_AnOpenIoT.pdf, page 3>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page3 used on inp
+ut line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/05_AnOpenIoT.pdf, page 3>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page3 used on inp
+ut line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+ [71 <./chapters/chapter04/05_AnOpenIoT.pdf>]
+
+pdfTeX warning: pdflatex (file ./chapters/chapter04/05_AnOpenIoT.pdf): PDF incl
+usion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<chapters/chapter04/05_AnOpenIoT.pdf, id=1642, page=4, 597.50829pt x 796.67737p
+t>
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+ <use chapters/chapter04/05_AnOpenIoT.pdf, page 4>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page4 used on inp
+ut line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/05_AnOpenIoT.pdf, page 4>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page4 used on inp
+ut line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/05_AnOpenIoT.pdf, page 4>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page4 used on inp
+ut line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+ [72 <./chapters/chapter04/05_AnOpenIoT.pdf>]
+
+pdfTeX warning: pdflatex (file ./chapters/chapter04/05_AnOpenIoT.pdf): PDF incl
+usion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<chapters/chapter04/05_AnOpenIoT.pdf, id=1651, page=5, 597.50829pt x 796.67737p
+t>
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+ <use chapters/chapter04/05_AnOpenIoT.pdf, page 5>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page5 used on inp
+ut line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/05_AnOpenIoT.pdf, page 5>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page5 used on inp
+ut line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/05_AnOpenIoT.pdf, page 5>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page5 used on inp
+ut line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+ [73 <./chapters/chapter04/05_AnOpenIoT.pdf>]
+
+pdfTeX warning: pdflatex (file ./chapters/chapter04/05_AnOpenIoT.pdf): PDF incl
+usion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<chapters/chapter04/05_AnOpenIoT.pdf, id=1666, page=6, 597.50829pt x 796.67737p
+t>
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+ <use chapters/chapter04/05_AnOpenIoT.pdf, page 6>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page6 used on inp
+ut line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/05_AnOpenIoT.pdf, page 6>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page6 used on inp
+ut line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/05_AnOpenIoT.pdf, page 6>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page6 used on inp
+ut line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+ [74 <./chapters/chapter04/05_AnOpenIoT.pdf>]
+
+pdfTeX warning: pdflatex (file ./chapters/chapter04/05_AnOpenIoT.pdf): PDF incl
+usion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<chapters/chapter04/05_AnOpenIoT.pdf, id=1690, page=7, 597.50829pt x 796.67737p
+t>
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+ <use chapters/chapter04/05_AnOpenIoT.pdf, page 7>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page7 used on inp
+ut line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/05_AnOpenIoT.pdf, page 7>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page7 used on inp
+ut line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/05_AnOpenIoT.pdf, page 7>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page7 used on inp
+ut line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+ [75 <./chapters/chapter04/05_AnOpenIoT.pdf>]
+
+pdfTeX warning: pdflatex (file ./chapters/chapter04/05_AnOpenIoT.pdf): PDF incl
+usion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<chapters/chapter04/05_AnOpenIoT.pdf, id=1699, page=8, 597.50829pt x 796.67737p
+t>
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+ <use chapters/chapter04/05_AnOpenIoT.pdf, page 8>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page8 used on inp
+ut line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/05_AnOpenIoT.pdf, page 8>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page8 used on inp
+ut line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/05_AnOpenIoT.pdf, page 8>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page8 used on inp
+ut line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+ [76 <./chapters/chapter04/05_AnOpenIoT.pdf>]
+
+pdfTeX warning: pdflatex (file ./chapters/chapter04/05_AnOpenIoT.pdf): PDF incl
+usion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<chapters/chapter04/05_AnOpenIoT.pdf, id=1714, page=9, 597.50829pt x 796.67737p
+t>
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+ <use chapters/chapter04/05_AnOpenIoT.pdf, page 9>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page9 used on inp
+ut line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/05_AnOpenIoT.pdf, page 9>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page9 used on inp
+ut line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/05_AnOpenIoT.pdf, page 9>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page9 used on inp
+ut line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+ [77 <./chapters/chapter04/05_AnOpenIoT.pdf>]
+
+pdfTeX warning: pdflatex (file ./chapters/chapter04/05_AnOpenIoT.pdf): PDF incl
+usion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<chapters/chapter04/05_AnOpenIoT.pdf, id=1729, page=10, 597.50829pt x 796.67737
+pt>
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+ <use chapters/chapter04/05_AnOpenIoT.pdf, page 10>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page10 used on in
+put line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/05_AnOpenIoT.pdf, page 10>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page10 used on in
+put line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/05_AnOpenIoT.pdf, page 10>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page10 used on in
+put line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+ [78 <./chapters/chapter04/05_AnOpenIoT.pdf>]
+
+pdfTeX warning: pdflatex (file ./chapters/chapter04/05_AnOpenIoT.pdf): PDF incl
+usion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<chapters/chapter04/05_AnOpenIoT.pdf, id=1738, page=11, 597.50829pt x 796.67737
+pt>
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+ <use chapters/chapter04/05_AnOpenIoT.pdf, page 11>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page11 used on in
+put line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/05_AnOpenIoT.pdf, page 11>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page11 used on in
+put line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/05_AnOpenIoT.pdf, page 11>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page11 used on in
+put line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+ [79 <./chapters/chapter04/05_AnOpenIoT.pdf>]
+
+pdfTeX warning: pdflatex (file ./chapters/chapter04/05_AnOpenIoT.pdf): PDF incl
+usion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<chapters/chapter04/05_AnOpenIoT.pdf, id=1759, page=12, 597.50829pt x 796.67737
+pt>
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+ <use chapters/chapter04/05_AnOpenIoT.pdf, page 12>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page12 used on in
+put line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/05_AnOpenIoT.pdf, page 12>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page12 used on in
+put line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/05_AnOpenIoT.pdf, page 12>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page12 used on in
+put line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+ [80 <./chapters/chapter04/05_AnOpenIoT.pdf>]
+
+pdfTeX warning: pdflatex (file ./chapters/chapter04/05_AnOpenIoT.pdf): PDF incl
+usion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<chapters/chapter04/05_AnOpenIoT.pdf, id=1764, page=13, 597.50829pt x 796.67737
+pt>
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+ <use chapters/chapter04/05_AnOpenIoT.pdf, page 13>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page13 used on in
+put line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/05_AnOpenIoT.pdf, page 13>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page13 used on in
+put line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/05_AnOpenIoT.pdf, page 13>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page13 used on in
+put line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+ [81 <./chapters/chapter04/05_AnOpenIoT.pdf>]
+
+pdfTeX warning: pdflatex (file ./chapters/chapter04/05_AnOpenIoT.pdf): PDF incl
+usion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<chapters/chapter04/05_AnOpenIoT.pdf, id=1769, page=14, 597.50829pt x 796.67737
+pt>
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+ <use chapters/chapter04/05_AnOpenIoT.pdf, page 14>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page14 used on in
+put line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/05_AnOpenIoT.pdf, page 14>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page14 used on in
+put line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+File: chapters/chapter04/05_AnOpenIoT.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/05_AnOpenIoT.pdf, page 14>
+Package pdftex.def Info: chapters/chapter04/05_AnOpenIoT.pdf, page14 used on in
+put line 200.
+(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
+ [82 <./chapters/chapter04/05_AnOpenIoT.pdf>]
+Overfull \hbox (34.38278pt too wide) in paragraph at lines 210--235
+[] 
  []
 
 
-
-pdfTeX warning: pdflatex (file ./chapters/chapter04/AnOpenIoT.pdf): PDF inclusi
-on: found PDF version <1.7>, but at most version <1.5> allowed
-<chapters/chapter04/AnOpenIoT.pdf, id=723, 597.50829pt x 796.67737pt>
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf used on input line 13
-1.
-(pdftex.def)             Requested size: 597.50682pt x 796.67543pt.
-
-
-pdfTeX warning: pdflatex (file ./chapters/chapter04/AnOpenIoT.pdf): PDF inclusi
-on: found PDF version <1.7>, but at most version <1.5> allowed
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-<use chapters/chapter04/AnOpenIoT.pdf>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf used on input line 13
-1.
-(pdftex.def)             Requested size: 597.50682pt x 796.67543pt.
-
-
-pdfTeX warning: pdflatex (file ./chapters/chapter04/AnOpenIoT.pdf): PDF inclusi
-on: found PDF version <1.7>, but at most version <1.5> allowed
-[35]
-
-pdfTeX warning: pdflatex (file ./chapters/chapter04/AnOpenIoT.pdf): PDF inclusi
-on: found PDF version <1.7>, but at most version <1.5> allowed
-<chapters/chapter04/AnOpenIoT.pdf, id=731, page=1, 597.50829pt x 796.67737pt>
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 1>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page1 used on input 
-line 131.
-(pdftex.def)             Requested size: 597.50682pt x 796.67543pt.
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 1>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page1 used on input 
-line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 1>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page1 used on input 
-line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 1>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page1 used on input 
-line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 1>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page1 used on input 
-line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
- [36 <./chapters/chapter04/AnOpenIoT.pdf>]
-
-pdfTeX warning: pdflatex (file ./chapters/chapter04/AnOpenIoT.pdf): PDF inclusi
-on: found PDF version <1.7>, but at most version <1.5> allowed
-<chapters/chapter04/AnOpenIoT.pdf, id=786, page=2, 597.50829pt x 796.67737pt>
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 2>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page2 used on input 
-line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 2>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page2 used on input 
-line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 2>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page2 used on input 
-line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
- [37 <./chapters/chapter04/AnOpenIoT.pdf>]
-
-pdfTeX warning: pdflatex (file ./chapters/chapter04/AnOpenIoT.pdf): PDF inclusi
-on: found PDF version <1.7>, but at most version <1.5> allowed
-<chapters/chapter04/AnOpenIoT.pdf, id=791, page=3, 597.50829pt x 796.67737pt>
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 3>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page3 used on input 
-line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 3>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page3 used on input 
-line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 3>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page3 used on input 
-line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
- [38 <./chapters/chapter04/AnOpenIoT.pdf>]
-
-pdfTeX warning: pdflatex (file ./chapters/chapter04/AnOpenIoT.pdf): PDF inclusi
-on: found PDF version <1.7>, but at most version <1.5> allowed
-<chapters/chapter04/AnOpenIoT.pdf, id=800, page=4, 597.50829pt x 796.67737pt>
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 4>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page4 used on input 
-line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 4>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page4 used on input 
-line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 4>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page4 used on input 
-line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
- [39 <./chapters/chapter04/AnOpenIoT.pdf>]
-
-pdfTeX warning: pdflatex (file ./chapters/chapter04/AnOpenIoT.pdf): PDF inclusi
-on: found PDF version <1.7>, but at most version <1.5> allowed
-<chapters/chapter04/AnOpenIoT.pdf, id=809, page=5, 597.50829pt x 796.67737pt>
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 5>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page5 used on input 
-line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 5>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page5 used on input 
-line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 5>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page5 used on input 
-line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
- [40 <./chapters/chapter04/AnOpenIoT.pdf>]
-
-pdfTeX warning: pdflatex (file ./chapters/chapter04/AnOpenIoT.pdf): PDF inclusi
-on: found PDF version <1.7>, but at most version <1.5> allowed
-<chapters/chapter04/AnOpenIoT.pdf, id=824, page=6, 597.50829pt x 796.67737pt>
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 6>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page6 used on input 
-line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 6>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page6 used on input 
-line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 6>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page6 used on input 
-line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
- [41 <./chapters/chapter04/AnOpenIoT.pdf>]
-
-pdfTeX warning: pdflatex (file ./chapters/chapter04/AnOpenIoT.pdf): PDF inclusi
-on: found PDF version <1.7>, but at most version <1.5> allowed
-<chapters/chapter04/AnOpenIoT.pdf, id=849, page=7, 597.50829pt x 796.67737pt>
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 7>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page7 used on input 
-line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 7>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page7 used on input 
-line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 7>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page7 used on input 
-line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
- [42 <./chapters/chapter04/AnOpenIoT.pdf>]
-
-pdfTeX warning: pdflatex (file ./chapters/chapter04/AnOpenIoT.pdf): PDF inclusi
-on: found PDF version <1.7>, but at most version <1.5> allowed
-<chapters/chapter04/AnOpenIoT.pdf, id=858, page=8, 597.50829pt x 796.67737pt>
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 8>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page8 used on input 
-line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 8>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page8 used on input 
-line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 8>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page8 used on input 
-line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
- [43 <./chapters/chapter04/AnOpenIoT.pdf>]
-
-pdfTeX warning: pdflatex (file ./chapters/chapter04/AnOpenIoT.pdf): PDF inclusi
-on: found PDF version <1.7>, but at most version <1.5> allowed
-<chapters/chapter04/AnOpenIoT.pdf, id=873, page=9, 597.50829pt x 796.67737pt>
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 9>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page9 used on input 
-line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 9>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page9 used on input 
-line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 9>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page9 used on input 
-line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
- [44 <./chapters/chapter04/AnOpenIoT.pdf>]
-
-pdfTeX warning: pdflatex (file ./chapters/chapter04/AnOpenIoT.pdf): PDF inclusi
-on: found PDF version <1.7>, but at most version <1.5> allowed
-
-<chapters/chapter04/AnOpenIoT.pdf, id=887, page=10, 597.50829pt x 796.67737pt>
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 10>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page10 used on input
- line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 10>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page10 used on input
- line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 10>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page10 used on input
- line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
- [45 <./chapters/chapter04/AnOpenIoT.pdf>]
-
-pdfTeX warning: pdflatex (file ./chapters/chapter04/AnOpenIoT.pdf): PDF inclusi
-on: found PDF version <1.7>, but at most version <1.5> allowed
-
-<chapters/chapter04/AnOpenIoT.pdf, id=896, page=11, 597.50829pt x 796.67737pt>
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 11>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page11 used on input
- line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 11>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page11 used on input
- line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 11>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page11 used on input
- line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
- [46 <./chapters/chapter04/AnOpenIoT.pdf>]
-
-pdfTeX warning: pdflatex (file ./chapters/chapter04/AnOpenIoT.pdf): PDF inclusi
-on: found PDF version <1.7>, but at most version <1.5> allowed
-
-<chapters/chapter04/AnOpenIoT.pdf, id=916, page=12, 597.50829pt x 796.67737pt>
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 12>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page12 used on input
- line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 12>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page12 used on input
- line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 12>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page12 used on input
- line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
- [47 <./chapters/chapter04/AnOpenIoT.pdf>]
-
-pdfTeX warning: pdflatex (file ./chapters/chapter04/AnOpenIoT.pdf): PDF inclusi
-on: found PDF version <1.7>, but at most version <1.5> allowed
-
-<chapters/chapter04/AnOpenIoT.pdf, id=923, page=13, 597.50829pt x 796.67737pt>
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 13>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page13 used on input
- line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 13>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page13 used on input
- line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 13>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page13 used on input
- line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
- [48 <./chapters/chapter04/AnOpenIoT.pdf>]
-
-pdfTeX warning: pdflatex (file ./chapters/chapter04/AnOpenIoT.pdf): PDF inclusi
-on: found PDF version <1.7>, but at most version <1.5> allowed
-
-<chapters/chapter04/AnOpenIoT.pdf, id=928, page=14, 597.50829pt x 796.67737pt>
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 14>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page14 used on input
- line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 14>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page14 used on input
- line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
-File: chapters/chapter04/AnOpenIoT.pdf Graphic file (type pdf)
-
-<use chapters/chapter04/AnOpenIoT.pdf, page 14>
-Package pdftex.def Info: chapters/chapter04/AnOpenIoT.pdf, page14 used on input
- line 131.
-(pdftex.def)             Requested size: 537.75249pt x 717.00302pt.
- [49 <./chapters/chapter04/AnOpenIoT.pdf>]) [50] (./chapters/appendices/app0A.t
-ex) [51
-
-
-] [52
+<chapters/chapter04/06_Providing_personalised.pdf, id=1794, 597.50829pt x 845.0
+471pt>
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+ <use chapters/chapter04/06_Providing_personalised.pdf>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf used 
+on input line 237.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf used 
+on input line 237.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+
+
+Class memoir Warning: The material used in the headers is too large
+(27.2pt) for the given head height (13.6pt), it is recommended to
+either increase the head height or redesign the header
+(in both cases you will find help in the memoir manual). on input line 237.
+
+
+Overfull \vbox (13.59999pt too high) has occurred while \output is active []
+
+
+[83]
+<chapters/chapter04/06_Providing_personalised.pdf, id=1802, page=1, 597.50829pt
+ x 845.0471pt>
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+ <use chapters/chapter04/06_Providing_personalised.pdf, page 1>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+1 used on input line 237.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 1>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+1 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 1>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+1 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 1>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+1 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 1>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+1 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [84 <./chapters/chapter04/06_Providing_personalised.pdf>]
+<chapters/chapter04/06_Providing_personalised.pdf, id=1839, page=2, 597.50829pt
+ x 845.0471pt>
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+ <use chapters/chapter04/06_Providing_personalised.pdf, page 2>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+2 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 2>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+2 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 2>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+2 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [85 <./chapters/chapter04/06_Providing_personalised.pdf>]
+<chapters/chapter04/06_Providing_personalised.pdf, id=1844, page=3, 597.50829pt
+ x 845.0471pt>
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+ <use chapters/chapter04/06_Providing_personalised.pdf, page 3>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+3 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 3>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+3 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 3>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+3 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [86 <./chapters/chapter04/06_Providing_personalised.pdf>]
+<chapters/chapter04/06_Providing_personalised.pdf, id=1872, page=4, 597.50829pt
+ x 845.0471pt>
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+ <use chapters/chapter04/06_Providing_personalised.pdf, page 4>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+4 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 4>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+4 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 4>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+4 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [87 <./chapters/chapter04/06_Providing_personalised.pdf>]
+<chapters/chapter04/06_Providing_personalised.pdf, id=1926, page=5, 597.50829pt
+ x 845.0471pt>
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+ <use chapters/chapter04/06_Providing_personalised.pdf, page 5>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+5 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 5>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+5 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 5>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+5 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [88 <./chapters/chapter04/06_Providing_personalised.pdf>]
+<chapters/chapter04/06_Providing_personalised.pdf, id=1932, page=6, 597.50829pt
+ x 845.0471pt>
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+ <use chapters/chapter04/06_Providing_personalised.pdf, page 6>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+6 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 6>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+6 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 6>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+6 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [89 <./chapters/chapter04/06_Providing_personalised.pdf>]
+<chapters/chapter04/06_Providing_personalised.pdf, id=1938, page=7, 597.50829pt
+ x 845.0471pt>
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+ <use chapters/chapter04/06_Providing_personalised.pdf, page 7>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+7 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 7>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+7 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 7>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+7 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [90 <./chapters/chapter04/06_Providing_personalised.pdf>]
+<chapters/chapter04/06_Providing_personalised.pdf, id=1966, page=8, 597.50829pt
+ x 845.0471pt>
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+ <use chapters/chapter04/06_Providing_personalised.pdf, page 8>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+8 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 8>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+8 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 8>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+8 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [91 <./chapters/chapter04/06_Providing_personalised.pdf>]
+<chapters/chapter04/06_Providing_personalised.pdf, id=2032, page=9, 597.50829pt
+ x 845.0471pt>
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+ <use chapters/chapter04/06_Providing_personalised.pdf, page 9>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+9 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 9>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+9 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 9>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+9 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [92 <./chapters/chapter04/06_Providing_personalised.pdf>]
+<chapters/chapter04/06_Providing_personalised.pdf, id=2092, page=10, 597.50829p
+t x 845.0471pt>
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 10>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+10 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 10>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+10 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 10>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+10 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [93 <./chapters/chapter04/06_Providing_personalised.pdf>]
+<chapters/chapter04/06_Providing_personalised.pdf, id=2097, page=11, 597.50829p
+t x 845.0471pt>
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 11>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+11 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 11>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+11 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 11>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+11 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [94 <./chapters/chapter04/06_Providing_personalised.pdf>]
+<chapters/chapter04/06_Providing_personalised.pdf, id=2174, page=12, 597.50829p
+t x 845.0471pt>
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 12>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+12 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 12>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+12 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 12>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+12 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [95 <./chapters/chapter04/06_Providing_personalised.pdf>]
+<chapters/chapter04/06_Providing_personalised.pdf, id=2180, page=13, 597.50829p
+t x 845.0471pt>
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 13>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+13 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 13>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+13 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 13>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+13 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [96 <./chapters/chapter04/06_Providing_personalised.pdf>]
+<chapters/chapter04/06_Providing_personalised.pdf, id=2229, page=14, 597.50829p
+t x 845.0471pt>
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 14>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+14 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 14>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+14 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 14>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+14 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [97 <./chapters/chapter04/06_Providing_personalised.pdf>]
+<chapters/chapter04/06_Providing_personalised.pdf, id=2301, page=15, 597.50829p
+t x 845.0471pt>
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 15>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+15 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 15>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+15 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 15>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+15 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [98 <./chapters/chapter04/06_Providing_personalised.pdf>]
+<chapters/chapter04/06_Providing_personalised.pdf, id=2329, page=16, 597.50829p
+t x 845.0471pt>
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 16>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+16 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 16>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+16 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 16>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+16 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [99 <./chapters/chapter04/06_Providing_personalised.pdf>]
+<chapters/chapter04/06_Providing_personalised.pdf, id=2384, page=17, 597.50829p
+t x 845.0471pt>
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 17>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+17 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 17>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+17 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 17>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+17 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [100 <./chapters/chapter04/06_Providing_personalised.pdf>]
+<chapters/chapter04/06_Providing_personalised.pdf, id=2439, page=18, 597.50829p
+t x 845.0471pt>
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 18>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+18 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 18>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+18 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 18>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+18 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [101 <./chapters/chapter04/06_Providing_personalised.pdf>]
+<chapters/chapter04/06_Providing_personalised.pdf, id=2495, page=19, 597.50829p
+t x 845.0471pt>
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 19>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+19 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 19>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+19 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 19>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+19 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [102 <./chapters/chapter04/06_Providing_personalised.pdf>]
+<chapters/chapter04/06_Providing_personalised.pdf, id=2500, page=20, 597.50829p
+t x 845.0471pt>
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 20>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+20 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 20>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+20 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 20>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+20 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [103 <./chapters/chapter04/06_Providing_personalised.pdf>]
+<chapters/chapter04/06_Providing_personalised.pdf, id=2505, page=21, 597.50829p
+t x 845.0471pt>
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 21>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+21 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 21>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+21 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+File: chapters/chapter04/06_Providing_personalised.pdf Graphic file (type pdf)
+
+<use chapters/chapter04/06_Providing_personalised.pdf, page 21>
+Package pdftex.def Info: chapters/chapter04/06_Providing_personalised.pdf, page
+21 used on input line 237.
+(pdftex.def)             Requested size: 537.75249pt x 760.53537pt.
+ [104 <./chapters/chapter04/06_Providing_personalised.pdf>]) (./chapters/append
+ices/app0A.tex)
+[105
+
+
+] [106
 
 ]
 No file memoirthesis.bbl.
 
-Package natbib Warning: There were undefined citations.
+Class memoir Warning: The material used in the headers is too large
+(27.2pt) for the given head height (13.6pt), it is recommended to
+either increase the head height or redesign the header
+(in both cases you will find help in the memoir manual). on input line 395.
 
 
-Package nag Warning: 3 complaints in total.
+Package nag Warning: 1 complaints in total.
 
 \tf@toc=\write7
 \openout7 = `memoirthesis.toc'.
@@ -3738,43 +4779,72 @@ LaTeX Info: Redefining \% on input line 37.
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 395.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 395.
-Package rerunfilecheck Info: File `memoirthesis.out' has not changed.
-(rerunfilecheck)             Checksum: 4B13C35EE29252F312D6C7BB7DD9D2A4;817.
- )
-(\end occurred when \ifx on line 58 was incomplete)
-(\end occurred when \ifx on line 50 was incomplete) 
+
+
+Package rerunfilecheck Warning: File `memoirthesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `memoirthesis.out':
+(rerunfilecheck)             Before: CFCD6B6A593BB4AC9CD7B617FC3A2664;2068
+(rerunfilecheck)             After:  3A81EF8A5991C1B238AD7F542EF216F7;2009.
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 27829 strings out of 493304
- 489976 string characters out of 6139871
- 867786 words of memory out of 5000000
- 30371 multiletter control sequences out of 15000+600000
- 78976 words of font info for 169 fonts, out of 8000000 for 9000
+ 27984 strings out of 493304
+ 497756 string characters out of 6139871
+ 1019689 words of memory out of 5000000
+ 30512 multiletter control sequences out of 15000+600000
+ 69981 words of font info for 135 fonts, out of 8000000 for 9000
  962 hyphenation exceptions out of 8191
- 53i,19n,69p,1012b,548s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-di
-st/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/fourier/fourier-mlit.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helve
-tic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
-/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on memoirthesis.pdf (66 pages, 9270061 bytes).
+ 53i,19n,69p,1012b,618s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{section.3.5} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.3.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.3.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.3.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.3.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/share/texmf/fonts/typ
+e1/public/tex-gyre/qagb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/t
+xfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/urw/ncntrsbk/uncr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatin
+o/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/urwvn/uplb8v.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/vntex/urwvn/uplr8v.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
+s/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on memoirthesis.pdf (120 pages, 23591362 bytes).
 PDF statistics:
- 1021 PDF objects out of 1200 (max. 8388607)
- 623 compressed objects within 7 object streams
- 84 named destinations out of 1000 (max. 500000)
- 41339 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 2599 PDF objects out of 2984 (max. 8388607)
+ 1559 compressed objects within 16 object streams
+ 149 named destinations out of 1000 (max. 500000)
+ 33544 words of extra memory for PDF output out of 35830 (max. 10000000)
 
